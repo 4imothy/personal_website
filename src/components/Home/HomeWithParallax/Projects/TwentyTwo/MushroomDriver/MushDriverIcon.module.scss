@@ -1,0 +1,28 @@
+@import '../../../../../colors.scss';
+
+.icon {
+    position: absolute;
+    display: flex;
+    width: 30%;
+    height: 30vh;
+    border-radius: 10px;
+}
+.textContainer {
+    position: absolute;
+    width: 30%;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.text {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    color: $darkBackground;
+    font-size: 5vh;
+    font-weight: 900;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #ad90d4;
+}

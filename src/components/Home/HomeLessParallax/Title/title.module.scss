@@ -1,0 +1,31 @@
+@import '../../../colors.scss';
+
+.textContainer{ 
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.text{ 
+    align-items: center;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 700;
+    font-style: italic;
+    color: $defaultText;
+}
+
+.imgText {    
+    transition:ease-in-out;
+    position: relative;
+    color: $darkBackground;
+    font-weight: 500;
+    font-size: 8vh;
+}
+
+.image{ 
+    margin-top: -2%;
+    width: 10vh;
+}

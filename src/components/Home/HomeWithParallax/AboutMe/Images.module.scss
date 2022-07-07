@@ -1,0 +1,45 @@
+.root {
+    display: flex;
+    position: relative;
+}
+
+.imageContainer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.image {
+    margin-top: -10%;
+    border-radius: 5px;
+    position: absolute;
+    width: 15%;
+}
+
+.waterImage {
+    margin-top: -20%;
+    border-radius: 5px;
+    position: absolute;
+    width: 15%;
+}
+
+.creviceImage {
+    margin-top: 10%;
+    border-radius: 5px;
+    position: relative;
+    width: 15%;
+}
+
+.flower {
+    margin-top: -30%;
+    border-radius: 5px;
+    position: absolute;
+    width: 8%;
+}
+
+.sunset {
+    margin-top: 10%;
+    border-radius: 5px;
+    position: absolute;
+    width: 20%;
+}

@@ -1,0 +1,22 @@
+@import '../../../colors.scss';
+
+.root{ 
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.text{
+    position: relative;
+    font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: $defaultText;
+    width: 100%;
+}
+
+.line{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}

@@ -1,0 +1,25 @@
+@import '../../../../colors.scss';
+
+.container{ 
+    text-align: center;
+}
+
+.title{ 
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}  
+
+.underline{ 
+    border-bottom: .6vh solid $defaultText;
+}
+
+.letter {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: 700;
+    font-style: italic;
+    color: $defaultText;
+    width: 1em;
+}

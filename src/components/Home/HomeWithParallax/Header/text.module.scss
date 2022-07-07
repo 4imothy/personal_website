@@ -1,0 +1,40 @@
+@import '../../../colors.scss';
+
+
+.container{ 
+    display: inline-block;
+    margin-left: 50%;
+}
+.word {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transform: translateX(-50%);
+}
+
+.middle{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.letter {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 700;
+    font-style: italic;
+    color: $defaultText;
+    width: 1em;
+}
+
+/*
+.text {
+    position: relative;
+    color: $plum;
+    font-weight: 500;
+    font-size: 15vh;
+}
+*/

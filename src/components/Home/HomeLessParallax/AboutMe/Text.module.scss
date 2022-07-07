@@ -1,0 +1,17 @@
+@import '../../../colors.scss';
+
+.container{
+    justify-content: center;
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.text {
+    position: relative;
+    font-size: 3vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: $defaultText;
+    width: 100%;
+}

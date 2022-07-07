@@ -1,0 +1,21 @@
+@import '../../../colors.scss';
+
+.container {
+    align-items: center;
+    text-align: center;
+    top: 100%;
+    margin-top: 10%;
+}
+
+.text {    
+    transition:ease-in-out;
+    position: relative;
+    color: $darkBackground;
+    font-weight: 500;
+    font-size: 8vh;
+}
+
+.image{ 
+    margin-top: -2%;
+    width: 7%;
+}
