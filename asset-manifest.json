@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/personalwebsite/static/css/main.dc9ed599.css",
-    "main.js": "/personalwebsite/static/js/main.6820b826.js",
+    "main.js": "/personalwebsite/static/js/main.a28174d4.js",
     "static/js/787.6568e1bc.chunk.js": "/personalwebsite/static/js/787.6568e1bc.chunk.js",
     "static/media/BlueWater.jpg": "/personalwebsite/static/media/BlueWater.98610beb129670afcb11.jpg",
     "static/media/ShoesOutlook.jpg": "/personalwebsite/static/media/ShoesOutlook.d94af10ce6f2ff437947.jpg",
@@ -11,8 +11,6 @@
     "static/media/Sunset.jpg": "/personalwebsite/static/media/Sunset.eedfd0e3d90d1ec1f651.jpg",
     "static/media/forest.jpg": "/personalwebsite/static/media/forest.573b3aaf25e7be0d2c44.jpg",
     "static/media/Mars.png": "/personalwebsite/static/media/Mars.6cc93faf7796e11ae1b9.png",
-    "static/media/mushrooms.png": "/personalwebsite/static/media/mushrooms.315de847219dc0c7185d.png",
-    "static/media/plants.png": "/personalwebsite/static/media/plants.8b2bd7ef81e11c1d1e3d.png",
     "static/media/MetFinBackground.jpg": "/personalwebsite/static/media/MetFinBackground.17cbf7a478692e995bac.jpg",
     "static/media/SpaceShip.png": "/personalwebsite/static/media/SpaceShip.0f3b4d922c61b1bc0157.png",
     "static/media/ChatAppIcon.png": "/personalwebsite/static/media/ChatAppIcon.af4dd8799444dcdd8dee.png",
@@ -51,11 +49,11 @@
     "static/media/mailIcon.png": "/personalwebsite/static/media/mailIcon.e07eb883f900b6ab78df.png",
     "index.html": "/personalwebsite/index.html",
     "main.dc9ed599.css.map": "/personalwebsite/static/css/main.dc9ed599.css.map",
-    "main.6820b826.js.map": "/personalwebsite/static/js/main.6820b826.js.map",
+    "main.a28174d4.js.map": "/personalwebsite/static/js/main.a28174d4.js.map",
     "787.6568e1bc.chunk.js.map": "/personalwebsite/static/js/787.6568e1bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc9ed599.css",
-    "static/js/main.6820b826.js"
+    "static/js/main.a28174d4.js"
   ]
 }
