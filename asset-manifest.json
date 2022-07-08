@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8be961e.css",
-    "main.js": "/static/js/main.d1e870d2.js",
+    "main.css": "/static/css/main.c6d28e7b.css",
+    "main.js": "/static/js/main.579f61a7.js",
     "static/js/787.6568e1bc.chunk.js": "/static/js/787.6568e1bc.chunk.js",
     "static/media/BlueWater.jpg": "/static/media/BlueWater.98610beb129670afcb11.jpg",
     "static/media/ShoesOutlook.jpg": "/static/media/ShoesOutlook.d94af10ce6f2ff437947.jpg",
@@ -48,12 +48,12 @@
     "static/media/menuIcon.png": "/static/media/menuIcon.2bd3c0a40e434cfc2cab.png",
     "static/media/mailIcon.png": "/static/media/mailIcon.e07eb883f900b6ab78df.png",
     "index.html": "/index.html",
-    "main.d8be961e.css.map": "/static/css/main.d8be961e.css.map",
-    "main.d1e870d2.js.map": "/static/js/main.d1e870d2.js.map",
+    "main.c6d28e7b.css.map": "/static/css/main.c6d28e7b.css.map",
+    "main.579f61a7.js.map": "/static/js/main.579f61a7.js.map",
     "787.6568e1bc.chunk.js.map": "/static/js/787.6568e1bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d8be961e.css",
-    "static/js/main.d1e870d2.js"
+    "static/css/main.c6d28e7b.css",
+    "static/js/main.579f61a7.js"
   ]
 }
