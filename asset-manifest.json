@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dc9ed599.css",
-    "main.js": "/static/js/main.88f24134.js",
+    "main.css": "/static/css/main.fffb96a4.css",
+    "main.js": "/static/js/main.d9727ab1.js",
     "static/js/787.6568e1bc.chunk.js": "/static/js/787.6568e1bc.chunk.js",
     "static/media/BlueWater.jpg": "/static/media/BlueWater.98610beb129670afcb11.jpg",
     "static/media/ShoesOutlook.jpg": "/static/media/ShoesOutlook.d94af10ce6f2ff437947.jpg",
@@ -48,12 +48,12 @@
     "static/media/menuIcon.png": "/static/media/menuIcon.2bd3c0a40e434cfc2cab.png",
     "static/media/mailIcon.png": "/static/media/mailIcon.e07eb883f900b6ab78df.png",
     "index.html": "/index.html",
-    "main.dc9ed599.css.map": "/static/css/main.dc9ed599.css.map",
-    "main.88f24134.js.map": "/static/js/main.88f24134.js.map",
+    "main.fffb96a4.css.map": "/static/css/main.fffb96a4.css.map",
+    "main.d9727ab1.js.map": "/static/js/main.d9727ab1.js.map",
     "787.6568e1bc.chunk.js.map": "/static/js/787.6568e1bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc9ed599.css",
-    "static/js/main.88f24134.js"
+    "static/css/main.fffb96a4.css",
+    "static/js/main.d9727ab1.js"
   ]
 }
