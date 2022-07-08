@@ -9,8 +9,8 @@ const FishyFeeder = () => {
         document.body.setAttribute('style', 'background: url("https://res.cloudinary.com/dmr8ozkfj/image/upload/v1657139856/FishyFederBackground.jpg") no-repeat center center fixed;'
             + '  -webkit-background-size: cover;'
             + '-moz-background-size: cover;'
-            + '-o-background-size: cover;'
-            + 'background-size: cover'
+            + '-o-background-size: cover;;'
+            + 'background-size: cover;'
         );
     })
 

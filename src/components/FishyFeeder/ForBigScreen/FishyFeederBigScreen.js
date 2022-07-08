@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Background from "./Background";
 import Description from './Description';
 import EmbeddedPlay from './EmbeddedPlay';

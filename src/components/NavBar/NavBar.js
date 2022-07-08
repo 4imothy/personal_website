@@ -76,7 +76,4 @@ function LinkInsideItem({ icon, hoverIcon, to }) {
     );
 }
 
-//projects text
-//github image
-//email me  image 
 export default NavBar;

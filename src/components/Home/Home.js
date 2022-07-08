@@ -6,7 +6,7 @@ const Home = () => {
 
     useEffect(() => {
         document.title = "Timothy Cronin";
-        document.body.setAttribute('style', 'background: #edeaea;');
+        document.body.setAttribute('style', 'background: #edeaea; overflow-x: hidden');
       })
     const [currentHome, setCurrentHome] = useState();
     const [wasSmallened, setWasSmalled] = useState(false);

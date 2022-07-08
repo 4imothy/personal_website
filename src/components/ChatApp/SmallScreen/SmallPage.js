@@ -34,7 +34,7 @@ function Text() {
                 or follow the link below to open the app in it's own window.
             </p>
 
-            <a href="https://timothyschat.netlify.app/" target="_blank" rel="norepper">
+            <a href="https://timothyschat.netlify.app/" target="_blank" rel="noreferrer">
                 <img className={styles.appIcon} src={toAppIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                     e.currentTarget.src = toAppIconHover;
                 }}
@@ -42,7 +42,7 @@ function Text() {
                         e.currentTarget.src = toAppIcon;
                     }} />
             </a>
-            <a href="https://www.github.com/4tlc/simplechatapp" target="_blank" rel="norepper">
+            <a href="https://www.github.com/4tlc/simplechatapp" target="_blank" rel="noreferrer">
                 <img className={styles.icon} src={githubIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                     e.currentTarget.src = githubIconHover;
                 }}

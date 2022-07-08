@@ -36,7 +36,7 @@ function Text() {
                     I created this game during
                     fall and winter break of 2021 using JavaFX and CSS.
                 </p>
-                <a href="https://github.com/4tlc/MeteorFingers/" target="_blank" rel="norepper">
+                <a href="https://github.com/4tlc/MeteorFingers/" target="_blank" rel="noreferrer">
                     <img className={styles.icon} src={githubIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                         e.currentTarget.src = githubIconHover;
                     }}

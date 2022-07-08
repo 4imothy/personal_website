@@ -7,7 +7,6 @@ import MushroomDriver from './components/MushroomDriver/MushroomDriver';
 import FishyFeeder from './components/FishyFeeder/FishyFeeder';
 import NavBar from './components/NavBar/NavBar.js'
 import { Route, Routes } from 'react-router-dom';
-import { useEffect } from 'react';
 
 export default function App() {
 

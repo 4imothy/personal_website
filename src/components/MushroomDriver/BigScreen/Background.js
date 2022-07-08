@@ -1,6 +1,4 @@
 import styles from './style.module.scss';
-import Mushrooms from '../Images/mushrooms.png';
-import Plants from '../Images/plants.png';
 import Cloud from '../Images/cloud.png';
 import Forest from '../Images/forest.jpg';
 import Moon from '../Images/moon.png';
