@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fffb96a4.css",
+    "main.css": "/static/css/main.db1bb319.css",
     "main.js": "/static/js/main.d9727ab1.js",
     "static/js/787.6568e1bc.chunk.js": "/static/js/787.6568e1bc.chunk.js",
     "static/media/BlueWater.jpg": "/static/media/BlueWater.98610beb129670afcb11.jpg",
@@ -48,12 +48,12 @@
     "static/media/menuIcon.png": "/static/media/menuIcon.2bd3c0a40e434cfc2cab.png",
     "static/media/mailIcon.png": "/static/media/mailIcon.e07eb883f900b6ab78df.png",
     "index.html": "/index.html",
-    "main.fffb96a4.css.map": "/static/css/main.fffb96a4.css.map",
+    "main.db1bb319.css.map": "/static/css/main.db1bb319.css.map",
     "main.d9727ab1.js.map": "/static/js/main.d9727ab1.js.map",
     "787.6568e1bc.chunk.js.map": "/static/js/787.6568e1bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fffb96a4.css",
+    "static/css/main.db1bb319.css",
     "static/js/main.d9727ab1.js"
   ]
 }
