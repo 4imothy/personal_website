@@ -7,7 +7,7 @@ const FishyFeederIcon = () => {
         <Link to='/FishyFeeder' >
         <img className={styles.icon} src={IconImage} alt="Fishy Feeder"/>
         <div className={styles.textContainer}>
-                <h1 className={styles.text}>Meteor Fingers</h1>
+                <h1 className={styles.text}>Fishy Feeder</h1>
             </div>
         </Link>
     );

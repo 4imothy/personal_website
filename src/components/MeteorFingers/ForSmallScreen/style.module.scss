@@ -7,7 +7,7 @@
 .text{ 
     z-index: 1;
     display: flex;
-    position: absolute;
+    position: relative;
     color: $darkBackground;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: $defaultText;
@@ -25,15 +25,15 @@
 .videoContainer{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
 }
 
 
 .video{ 
     width: 80%;
-    height: 40%;
+    height: 80%;
     position: absolute;
-    top: 60%;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
 }

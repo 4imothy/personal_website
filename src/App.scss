@@ -1,5 +1,11 @@
 @import './components/colors.scss';
 
+
+html{
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     background-color: $background;
     overflow-x: hidden;

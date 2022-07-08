@@ -31,8 +31,8 @@ const NavBar = () => {
                         <LinkOutsideItem icon={githubIcon} hoverIcon={githubHover} to="https://www.github.com/4tlc" />
                     </div>
                 </CSSTransition>
-                <div>
-                    <img className={styles.itemIcon} src={menuIcon} alt="navigate" onClick={() => {
+                <div className={styles.menuIconContainer}>
+                    <img className={styles.menuIcon} src={menuIcon} alt="navigate" onClick={() => {
                         setOpen(!open);
                     }} onMouseOver={(e) => {
                         setOpen(true);
@@ -49,7 +49,7 @@ const NavBar = () => {
 
 function LinkOutsideItem({ icon, hoverIcon, to }) {
     return (
-        <li className={styles.item}>
+        <li className={styles.itemContainer}>
             <a href={to} target="_blank" rel="noreferrer">
                 <img className={styles.itemIcon} src={icon} alt={to} onMouseOver={(e) => {
                     e.currentTarget.src = hoverIcon;
@@ -64,7 +64,7 @@ function LinkOutsideItem({ icon, hoverIcon, to }) {
 
 function LinkInsideItem({ icon, hoverIcon, to }) {
     return (
-        <li className={styles.item}>
+        <li className={styles.itemContainer}>
             <HashLink to={to}>
                 <img className={styles.itemIcon} src={icon} alt={to} onMouseOver={(e) => {
                     e.currentTarget.src = hoverIcon;

@@ -8,7 +8,7 @@
 .text{ 
     z-index: 1;
     display: flex;
-    position: absolute;
+    position: relative;
     color: $darkBackground;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: $defaultText;
@@ -34,15 +34,15 @@
 .gameContainer{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
 }
 
 
 .game{ 
     width: 80%;
-    height: 20%;
+    height: 60%;
     position: absolute;
-    top: 65%;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
 }
