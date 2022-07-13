@@ -15,6 +15,7 @@ const AboutMePhotos = () => {
                 }}
                     src={MeOnBridge} alt="Bridge" />
                 <img style={{
+                    transform: 'translateY(10%)',
                     width: '40%',
                     height: '100%'
                 }} src={BlueWater} alt="Blue Water" />
@@ -27,11 +28,12 @@ const AboutMePhotos = () => {
             </div>
             <div className={styles.creviceContainer}>
                 <img style={{
+                    transform: 'translateY(5%)',
                     width: '100%',
                     height: '100%'
                 }} src={MeInCrevice} alt="In Rocks" />
             </div>
-            </div>
+        </div>
     );
 }
 

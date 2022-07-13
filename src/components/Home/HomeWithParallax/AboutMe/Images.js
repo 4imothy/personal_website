@@ -17,7 +17,7 @@ const Images = () => {
                 <img className={styles.waterImage} src={blueWater} alt='cool nature shot' />
             </Parallax>
 
-            <Parallax className={styles.imageContainer} rotate={[-90,90]} translateX={[50, -300]} easing={[.35, .34, 1, .08]}>
+            <Parallax className={styles.imageContainer} translateX={[75, -300]} rotate={[-30,300]} easing={[.35, .34, 1, .08]}>
                 <img className={styles.creviceImage} src={meInCrevice} alt='cool nature shot' />
             </Parallax>
 

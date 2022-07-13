@@ -2,26 +2,27 @@ import { Parallax } from "react-scroll-parallax";
 import styles from './AboutMeText.module.scss';
 
 /*
-I'm a sophomore at Case Western Reserve University and an avid explorer 
-of both coding and nature (proof to the right). Coding allows me to 
-design and create things with both a creative and analytical mindset. 
-Take, for example, this website (check out the source code on my GitHub). 
-Thus, I greatly enjoy creating new projects in my free time. Apart from 
-this website, I have created two games, an instant messaging website, 
-and am currently working on an infinite runner using Unity. These are 
-all visible in the projects section of my website. 
-I will continue to update this website with new projects, so stay tuned! 
+Hi, I’m Tim
+ 
+I’m a  sophomore at Case Western Reserve University (Class of 2025), majoring in Computer Science. 
+I enjoy exploring nature and developing new computer programs. I am able to create programs that 
+can address practical issues, be fun to use, or both. Take, for example, this website (source is public on my GitHub) 
+or other projects I have made which are visible if you keep scrolling. 
+There you will see 
+I have created an instant messaging web app, two games, and am currently working on a new driving game using the Unity Engine. 
+I will continue to update this website with any changes or new projects so stay tuned!
+
 */
 
 const intro = "Hi, I'm Tim.";
-const lineOne = "I'm a sophomore at Case Western Reserve University and an avid explorer";
-const lineTwo = "of both coding and nature (proof to the right). Coding allows me to";
-const lineThree = "design and create things with both a creative and analytical mindset.";
-const lineFour = "Take, for example, this website (check out the source code on my GitHub).";
-const lineFive = "Thus, I greatly enjoy creating new projects in my free time. Apart from";
-const lineSix = "this website, I have created two games, an instant messaging website,";
-const lineSeven = "and am currently working on an infinite runner using Unity. These are";
-const lineEight = "all visible in the projects section of my website.";
+const lineOne = "I’m a  sophomore at Case Western Reserve University (Class of 2025),";
+const lineTwo = "majoring in Computer Science. I enjoy exploring nature and developing";
+const lineThree = "new computer programs. I am able to create programs that can address";
+const lineFour = "practical issues, be fun to use, or both. Take, for example,";
+const lineFive = "this website (source is public on my GitHub) or other projects I have made";
+const lineSix = "which are visible if you keep scrolling. There you will see";
+const lineSeven = "I have created an instant messaging web app, two games,";
+const lineEight = "and am currently working on a new driving game using the Unity Engine.";
 const lineNine = "I will continue to update this website with new projects, so stay tuned!";
 
 const AboutMeText = () => {
