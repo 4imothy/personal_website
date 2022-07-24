@@ -19,7 +19,7 @@
 }
 
 
-.titleContainer{ 
+.titleContainer {
     pointer-events: none;
     z-index: 1;
     position: relative;
@@ -37,15 +37,26 @@
     pointer-events: none;
     z-index: 1;
     display: flex;
-    position: relative;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
     color: $darkBackground;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $defaultText;
-    width: 80%;
-    height: 100%;
-    margin-left: 10%;
-    font: bold 30px arial;
+    width: 55%;
+    margin-left: 5%;
+    font: bold 28px arial;
+}
+
+.icon {
+    pointer-events: all;
+    position: absolute;
+    width: 10%;
+    left: 0;
+    top: 100%;
+}
+
+.video {
+    z-index: 1;
+    position: absolute;
+    left: 70%;
+    top: 20%;
 }

@@ -1,7 +1,19 @@
 @import '../../colors.scss';
 
-.title{ 
+.title {
+    pointer-events: none;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: $darkBackground;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $defaultText;
     width: 100%;
+    font: bold 45px arial;
+    margin-top: 7%;
+    margin-bottom: 0;
 }
 
 .text{ 
@@ -17,10 +29,11 @@
 
 .icon{ 
     position: absolute;
-    width: 3vh;
-    top: 100%;
+    width: 6.5vh;
+    top: 96%;
     left: 20%;
 }
+
 
 .videoContainer{
     position: relative;

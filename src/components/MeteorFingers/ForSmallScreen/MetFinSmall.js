@@ -5,9 +5,7 @@ import styles from './style.module.scss';
 
 const MetFinSmall = () => {
     return (
-        <div stlye={{
-            display: 'flex'
-        }}>
+        <div>
             <Title />
             <Text />
             <VideoPlayer />
