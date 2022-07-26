@@ -1,5 +1,6 @@
 import HomeWithParallax from './HomeWithParallax/HomeWithParallax.js'
 import HomeLessParallax from './HomeLessParallax/HomeLessParallax.js';
+import ContactForm from './ContactMe/ContactForm.js';
 import { useState, useEffect } from 'react';
 
 const Home = () => {
@@ -34,6 +35,7 @@ const Home = () => {
             height: '500vh'
         }} id="home">
             {currentHome}
+            <ContactForm />
         </div>
     );
 }
