@@ -11,6 +11,9 @@
 # production
 /build
 
+#to hide kets
+/src/components/Home/ContactMe/ContactForm.js
+
 # misc
 .DS_Store
 .env.local
