@@ -1,6 +1,8 @@
 import styles from './style.module.scss';
 import AppStoreIcon from '../Images/AppStoreIcon.png';
 import AppStoreIconHover from '../Images/AppStoreIconHover.png';
+import GooglePlayIcon from '../Images/googlePlayIcon.png';
+import GooglePlayIconHover from '../Images/googlePlayIconHover.png'; 
 import { useEffect } from 'react';
 
 const SmallScreen = () => {
@@ -54,6 +56,17 @@ function Text() {
                     }}
                         onMouseLeave={(e) => {
                             e.currentTarget.src = AppStoreIcon;
+                        }} />
+                </a>
+                <a href="https://apps.apple.com/us/app/mushroom-driver/id1635598791" target="_blank" rel="noreferrer">
+                    <img className={styles.icon} src={GooglePlayIcon} alt={"See On GitHub"} onMouseOver={(e) => {
+                        e.currentTarget.src = GooglePlayIconHover;
+                    }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.src = GooglePlayIcon;
+                        }}
+                        style={{
+                            left: '35%',
                         }} />
                 </a>
             </div>

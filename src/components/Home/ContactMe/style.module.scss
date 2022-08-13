@@ -26,12 +26,24 @@
 }
 
 .title {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.letter {
+    display: inline-block;
     text-transform: uppercase;
-    position: relative;
-    font-size: 4vh;
+    font-size: 2em;
     font-weight: 700;
     font-style: italic;
     color: $defaultText;
+    width: 1em;
+}
+
+.line{ 
+    border-bottom: .7vh solid $defaultText;
 }
 
 form {
