@@ -12,7 +12,7 @@
 /build
 
 #to hide kets
-/src/components/Home/ContactMe/ContactForm.js
+/src/components/Home/ContactMe/EmailKeys.js
 
 # misc
 .DS_Store

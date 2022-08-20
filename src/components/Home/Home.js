@@ -8,7 +8,7 @@ const Home = () => {
     useEffect(() => {
         document.title = "Timothy Cronin";
         document.body.setAttribute('style', 'background: #edeaea; overflow-x: hidden; position: relative');
-      })
+    })
     const [currentHome, setCurrentHome] = useState();
     const [wasSmallened, setWasSmalled] = useState(false);
     const [isFirst, setIsFirst] = useState(true);
@@ -33,8 +33,10 @@ const Home = () => {
     return (
         <div style={{
             height: '500vh'
-        }} id="home">
-            {currentHome}
+        }}>
+            <div id="home">
+                {currentHome}
+            </div>
             <ContactForm />
         </div>
     );
