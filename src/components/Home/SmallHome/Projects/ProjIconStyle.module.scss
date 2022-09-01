@@ -1,28 +1,32 @@
 @import '../../../colors.scss';
 
+.container{ 
+    width: 30%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
 .icon {
-    position: absolute;
-    display: flex;
-    width: 40%;
+    width: 100%;
     height: 30vh;
     border-radius: 10px;
 }
+
 .textContainer {
-    position: absolute;
-    width: 40%;
-    height: 30vh;
-    align-items: center;
-    justify-content: center;
     display: flex;
-}
-.text {
+    justify-content: center;
     text-align: center;
     align-items: center;
-    display: flex;
+    position: relative;
+} 
+
+.text {
+    top: 8vh;
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
     color: $darkBackground;
     font-size: 2.5vh;
     font-weight: 900;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #ad90d4;
 }

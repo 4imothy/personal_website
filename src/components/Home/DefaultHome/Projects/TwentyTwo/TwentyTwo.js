@@ -28,7 +28,7 @@ const TwentyTwo = () => {
                     justifyContent: 'space-around',
                     marginTop: '7%'
                 }}>
-                    <IconOutline img={ChatAppBG} linkTo="/ChatApp" altImg="Chat App" firstwords="Simple" secondWords="Chat App" />
+                    <IconOutline img={ChatAppBG} linkTo="/ChatApp" altImg="Chat App" firstwords="Online" secondWords="Chat App" />
                 </div>
             </Parallax >
         </div >
