@@ -6,8 +6,12 @@ const Projects = () => {
     return (
         <div id="projects">
             <Title />
-            <TwentyTwo />
-            <TwentyOne />
+            <div style={{
+                position: 'relative',
+            }}>
+                <TwentyTwo />
+                <TwentyOne />
+            </div>
         </div>
     );
 }

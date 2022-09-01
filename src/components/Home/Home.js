@@ -31,9 +31,7 @@ const Home = () => {
 
 
     return (
-        <div style={{
-            height: '500vh'
-        }}>
+        <div    >
             <div id="home">
                 {currentHome}
             </div>
