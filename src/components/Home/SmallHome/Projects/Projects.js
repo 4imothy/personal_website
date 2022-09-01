@@ -22,10 +22,15 @@ const Projects = () => {
             }}>
                 <div style={{
                     display: 'flex',
-                    flexDirection: 'flex',
                     justifyContent: 'space-around'
                 }}>
+                    <ProjIcon to="/SortingVisualizer" img={SorVisBG} altImg="Sorting Visualizer" firstWords="Sorting" secondWords="Visualizer" />
                     <ProjIcon to="/MushroomDriver" img={MushDrivBG} altImg="Mushroom Driver" firstWords="Mushroom" secondWords="Driver" />
+                </div>
+                <div style={{
+                    display: 'flex',
+                    justifyContent: 'space-around'
+                }}>
                     <ProjIcon to="/ChatApp" img={ChatAppBG} altImg="Chat App" firstWords="Online" secondWords="Chat App" />
                 </div>
             </Parallax>
