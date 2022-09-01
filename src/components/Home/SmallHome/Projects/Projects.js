@@ -1,6 +1,6 @@
 import ProjectTitle from './Title/ProjectTitle.js';
-import TwentyTwoTitle from './TwentyTwo/TwentyTwoTitle.js';
-import TwentyOneTitle from './TwentyOne/TwentyOneTitle.js';
+import TwentyTwoTitle from './TwentyTwoTitle.js';
+import TwentyOneTitle from './TwentyOneTitle.js';
 import ProjIcon from './ProjIcon.js';
 import { Parallax } from 'react-scroll-parallax';
 
