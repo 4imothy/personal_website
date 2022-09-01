@@ -16,12 +16,10 @@ const Home = () => {
     const windowSize = UpdateHomeFromSize();
 
     if (!wasSmallened && (windowSize.width < 802 || windowSize.height < 520 || windowSize.widthToHeight < 1.2)) {
-        console.log("setting to small");
         setWasSmalled(true);
         setCurrentHome(< SmallHome />);
     }
     if ((isFirst || wasSmallened) && windowSize.width >= 802 && windowSize.height >= 520 && windowSize.widthToHeight >= 1.2) {
-        console.log("setting to large");
         setCurrentHome(< DefaultHome />);
         setWasSmalled(false);
         setIsFirst(false);
@@ -59,7 +57,6 @@ function UpdateHomeFromSize() {
                 height: window.innerHeight,
                 widthToHeight: (parseInt(window.innerWidth) / parseInt(window.innerHeight)),
             });
-            console.log("setting the values");
         }
         // Add event listener
         window.addEventListener("resize", handleResize);

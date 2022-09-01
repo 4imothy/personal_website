@@ -56,7 +56,6 @@ function UpdateHomeFromSize() {
                 height: window.innerHeight,
                 widthToHeight: (parseInt(window.innerWidth) / parseInt(window.innerHeight)),
             });
-            console.log("setting the values");
         }
         // Add event listener
         window.addEventListener("resize", handleResize);

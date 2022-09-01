@@ -11,12 +11,10 @@ const MushroomDriver = () => {
     const windowSize = UpdateHomeFromSize();
 
     if (!wasSmallened && (windowSize.width < 840 || windowSize.height < 520 || windowSize.widthToHeight < 1.2)) {
-        console.log("setting to small");
         setWasSmalled(true);
         setCurrentPage(< SmallScreen />);
     }
     if ((isFirst || wasSmallened) && windowSize.width >= 840 && windowSize.height >= 520 && windowSize.widthToHeight >= 1.2) {
-        console.log("setting to large");
         setCurrentPage(< BigScreen />);
         setWasSmalled(false);
         setIsFirst(false);
@@ -46,7 +44,6 @@ function UpdateHomeFromSize() {
                 height: window.innerHeight,
                 widthToHeight: (parseInt(window.innerWidth) / parseInt(window.innerHeight)),
             });
-            console.log("setting the values");
         }
         // Add event listener
         window.addEventListener("resize", handleResize);
