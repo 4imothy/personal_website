@@ -8,7 +8,9 @@ import FishFeedBG from '../ProjectIcons/FishyFeederBackground.jpg';
 
 const TwentyOne = () => {
     return (
-        <div>
+        <div style={{
+            marginTop: '15%',
+        }}>
             <TwentyOneTitle />
             <Parallax scale={[1, 1.2]} style={{
                 marginTop: '3%',

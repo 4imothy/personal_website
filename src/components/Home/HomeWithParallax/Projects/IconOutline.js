@@ -5,7 +5,7 @@ const IconOutline = ({ linkTo, img, altImg, firstwords, secondWords }) => {
     return (
             <Link to={linkTo} style={{
                 width: '30%',
-                height: '30vh',
+                height: '100%',
                 justifyContent: 'center',
                 textAlign:'center',
             }}>
