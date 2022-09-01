@@ -5,6 +5,7 @@ import MeteorFingers from './components/MeteorFingers/MeteorFingers.js';
 import ChatApp from './components/ChatApp/ChatApp';
 import MushroomDriver from './components/MushroomDriver/MushroomDriver';
 import FishyFeeder from './components/FishyFeeder/FishyFeeder';
+import SortingVisualizer from './components/SortingVisualizer/SortingVisualizer';
 import NavBar from './components/NavBar/NavBar.js'
 import { Route, Routes } from 'react-router-dom';
 
@@ -15,6 +16,7 @@ export default function App() {
       <NavBar />
       <Routes>
         <Route exact path='/' element={<Home />} />
+        <Route path='/SortingVisualizer' element={<SortingVisualizer />} />
         <Route path='/MeteorFingers' element={<MeteorFingers />} />
         <Route path='/ChatApp' element={<ChatApp />} />
         <Route path='/MushroomDriver' element={<MushroomDriver />} />

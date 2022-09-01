@@ -1,3 +1,5 @@
+import DefaultPage from './DefaultPage/DefaultPage.js';
+import SmallPage from './SmallPage/SmallPage.js';
 import { useEffect, useState } from 'react';
 
 const SortingVisualizer = () => {
@@ -9,11 +11,10 @@ const SortingVisualizer = () => {
     const windowSize = UpdateHomeFromSize();
 
     if (!wasSmallened && (windowSize.width < 840 || windowSize.height < 520 || windowSize.widthToHeight < 1.2)) {
-        setWasSmalled(true);
         setCurrentPage(< SmallPage />);
+        setWasSmalled(true);
     }
     if ((isFirst || wasSmallened) && windowSize.width >= 840 && windowSize.height >= 520 && windowSize.widthToHeight >= 1.2) {
-        console.log("setting to large");
         setCurrentPage(< DefaultPage />);
         setWasSmalled(false);
         setIsFirst(false);
@@ -43,7 +44,6 @@ function UpdateHomeFromSize() {
                 height: window.innerHeight,
                 widthToHeight: (parseInt(window.innerWidth) / parseInt(window.innerHeight)),
             });
-            console.log("setting the values");
         }
         // Add event listener
         window.addEventListener("resize", handleResize);
