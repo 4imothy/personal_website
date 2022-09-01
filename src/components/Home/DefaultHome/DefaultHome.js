@@ -4,7 +4,7 @@ import AboutMe from './AboutMe/AboutMe.js';
 import Projects from "./Projects/Projects.js";
 import { ParallaxProvider } from "react-scroll-parallax";
 
-const HomeWithParallax = () => {
+const DefaultHome = () => {
     return (
         <ParallaxProvider>
             <Header />
@@ -15,4 +15,4 @@ const HomeWithParallax = () => {
     );
 }
 
-export default HomeWithParallax;
+export default DefaultHome;

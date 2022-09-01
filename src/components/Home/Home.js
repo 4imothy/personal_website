@@ -1,5 +1,5 @@
-import HomeWithParallax from './HomeWithParallax/HomeWithParallax.js'
-import HomeLessParallax from './HomeLessParallax/HomeLessParallax.js';
+import SmallHome from './SmallHome/SmallHome.js';
+import DefaultHome from './DefaultHome/DefaultHome.js';
 import ContactForm from './ContactMe/ContactForm.js';
 import { useState, useEffect } from 'react';
 
@@ -18,11 +18,11 @@ const Home = () => {
     if (!wasSmallened && (windowSize.width < 802 || windowSize.height < 520 || windowSize.widthToHeight < 1.2)) {
         console.log("setting to small");
         setWasSmalled(true);
-        setCurrentHome(< HomeLessParallax />);
+        setCurrentHome(< SmallHome />);
     }
     if ((isFirst || wasSmallened) && windowSize.width >= 802 && windowSize.height >= 520 && windowSize.widthToHeight >= 1.2) {
         console.log("setting to large");
-        setCurrentHome(< HomeWithParallax />);
+        setCurrentHome(< DefaultHome />);
         setWasSmalled(false);
         setIsFirst(false);
     }
