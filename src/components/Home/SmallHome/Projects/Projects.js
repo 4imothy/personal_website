@@ -1,12 +1,15 @@
 import ProjectTitle from './Title/ProjectTitle.js';
 import TwentyTwoTitle from './TwentyTwo/TwentyTwoTitle.js';
-import MushDriverIcon from './TwentyTwo/MushroomDriverIcon.js';
-import ChatAppIcon from './TwentyTwo/ChatAppIcon.js';
-
 import TwentyOneTitle from './TwentyOne/TwentyOneTitle.js';
-import MeteorFingersIcon from './TwentyOne/MeteorFingersIcon.js';
-import FishyFeederIcon from './TwentyOne/FishyFeederIcon.js';
+import ProjIcon from './ProjIcon.js';
 import { Parallax } from 'react-scroll-parallax';
+
+//import photos
+import SorVisBG from '../../ProjectBackgrounds/SortingVisualizerIcon.png';
+import MushDrivBG from '../../ProjectBackgrounds/MushroomDriver.png';
+import ChatAppBG from '../../ProjectBackgrounds/ChatAppIcon.png';
+import FishFeedBG from '../../ProjectBackgrounds/FishyFeederBackground.jpg';
+import MetFinBG from '../../ProjectBackgrounds/MetFinBackground.jpg';
 
 const Projects = () => {
     return (
@@ -23,13 +26,13 @@ const Projects = () => {
                 <div style={{
                     transform: 'translateX(5%)'
                 }}>
-                    <MushDriverIcon />
+                    <ProjIcon to="/MushroomDriver" img={MushDrivBG} altImg="Mushroom Driver" words="Mushroom Driver" />
                 </div>
 
                 <div style={{
                     transform: 'translateX(55%)'
                 }}>
-                    <ChatAppIcon />
+                    <ProjIcon to="/ChatApp" img={ChatAppBG} altImg="Chat App" words="Simple Chat App" />
                 </div>
             </Parallax>
             <TwentyOneTitle />
@@ -43,12 +46,12 @@ const Projects = () => {
                 <div style={{
                     transform: 'translateX(5%)'
                 }}>
-                    <FishyFeederIcon />
+                    <ProjIcon to="/FishyFeeder" img={FishFeedBG} altImg="Fishy Feeder" words="Fishy Feeder" />
                 </div>
                 <div style={{
                     transform: 'translateX(55%)'
                 }}>
-                    <MeteorFingersIcon />
+                    <ProjIcon to="/MeteorFingers" img={MetFinBG} altImg="Meteor Fingers" words="Meteor Fingers" />
                 </div>
             </Parallax>
         </div>

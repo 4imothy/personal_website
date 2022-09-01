@@ -3,8 +3,8 @@ import { Parallax } from "react-scroll-parallax";
 import IconOutline from "../IconOutline";
 
 //import icons
-import MetFinBG from '../ProjectIcons/MetFinBackground.jpg';
-import FishFeedBG from '../ProjectIcons/FishyFeederBackground.jpg';
+import MetFinBG from '../../../ProjectBackgrounds/MetFinBackground.jpg';
+import FishFeedBG from '../../../ProjectBackgrounds/FishyFeederBackground.jpg';
 
 const TwentyOne = () => {
     return (
