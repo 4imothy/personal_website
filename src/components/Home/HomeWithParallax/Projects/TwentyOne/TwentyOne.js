@@ -1,4 +1,4 @@
-import TwentyOneTitle from "./Title/TwentyOneTitle";
+import TwentyOneTitle from "./TwentyOneTitle";
 import { Parallax } from "react-scroll-parallax";
 import IconOutline from "../IconOutline";
 
@@ -9,7 +9,7 @@ import FishFeedBG from '../ProjectIcons/FishyFeederBackground.jpg';
 const TwentyOne = () => {
     return (
         <div style={{
-            marginTop: '15%',
+            marginTop: '10%',
         }}>
             <TwentyOneTitle />
             <Parallax scale={[1, 1.2]} style={{

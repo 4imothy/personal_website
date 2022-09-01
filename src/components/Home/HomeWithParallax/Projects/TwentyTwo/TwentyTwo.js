@@ -1,4 +1,4 @@
-import TwentyTwoTitle from './Title/TwentyTwoTitle.js';
+import TwentyTwoTitle from './TwentyTwoTitle.js';
 import { Parallax } from 'react-scroll-parallax';
 import IconOutline from '../IconOutline.js';
 
@@ -19,8 +19,8 @@ const TwentyTwo = () => {
                     flexDirection: 'row',
                     justifyContent: 'space-around'
                 }}>
+                    <IconOutline img={SorVisBG} linkTo="/SortingVisualizer" altImg="Sorting Visualizer" firstwords="Sorting" secondWords="Visualizer" />
                     <IconOutline img={MushDriveBG} linkTo="/MushroomDriver" altImg="Mushroom Driver" firstwords="Mushroom" secondWords="Driver" />
-                    <IconOutline img={ChatAppBG} linkTo="/ChatApp" altImg="Chat App" firstwords="Simple" secondWords="Chat App" />
                 </div>
                 <div style={{
                     display: 'flex',
@@ -28,7 +28,7 @@ const TwentyTwo = () => {
                     justifyContent: 'space-around',
                     marginTop: '7%'
                 }}>
-                    <IconOutline img={SorVisBG} linkTo="/SortingVisualizer" altImg="Sorting Visualizer" firstwords="Sorting" secondWords="Visualizer" />
+                    <IconOutline img={ChatAppBG} linkTo="/ChatApp" altImg="Chat App" firstwords="Simple" secondWords="Chat App" />
                 </div>
             </Parallax >
         </div >
