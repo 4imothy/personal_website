@@ -20,6 +20,16 @@ const SortingVisualizer = () => {
         setIsFirst(false);
     }
 
+    useEffect(() =>{
+        document.title = "Sorting Visualizer";
+        document.body.setAttribute('style', 'background: #6a8f7a;'
+            + '  -webkit-background-size: cover;'
+            + '-moz-background-size: cover;'
+            + '-o-background-size: cover;'
+            + 'background-size: cover'
+        );
+    });
+
     return (
         <div>
             {currentPage}

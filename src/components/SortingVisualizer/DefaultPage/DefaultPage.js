@@ -24,7 +24,8 @@ const Content = () => {
                     Merge Sort, Quick Sort, Heap Sort and Bubble Sort. This app was built using react. For
                     each sort two arrays are created, the array that stores values and the visual array which 
                     turns those values into blocks with corresponding heights. I created this during the end of 
-                    summer/beginning of school in fall 2022.
+                    summer/beginning of school in fall 2022. You can access it to the left or open the website
+                in a new window using the button below.
                 </p>
                 <a href="https://github.com/4tlc/sorting_visualizer" target="_blank" rel="noreferrer">
                     <img className={styles.icon} src={ghIcon} alt={"See On GitHub"} onMouseOver={(e) => {
@@ -54,15 +55,6 @@ const Content = () => {
 }
 
 const DefaultPage = () => {
-    useEffect(() =>{
-        document.title = "Sorting Visualizer";
-        document.body.setAttribute('style', 'background: #6a8f7a;'
-            + '  -webkit-background-size: cover;'
-            + '-moz-background-size: cover;'
-            + '-o-background-size: cover;'
-            + 'background-size: cover'
-        );
-    });
 
     return (
         <div>
