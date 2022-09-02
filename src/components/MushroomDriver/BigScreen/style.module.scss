@@ -39,11 +39,13 @@
     display: flex;
     position: absolute;
     color: $darkBackground;
+    background-color: rgba(0,0,0,.5);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $defaultText;
+    border-radius: 10px;
     width: 55%;
     margin-left: 5%;
-    font: bold 28px arial;
+    font: bold 30px arial;
 }
 
 .icon {

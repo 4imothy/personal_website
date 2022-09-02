@@ -17,7 +17,7 @@ const Content = () => {
                     are one of the best mushrooms drivers in the world.
                     <br />
                     <br />
-                    The game is available on the Apple App Store.
+                    The game is available on the Apple App Store and Google Play Store.
                 </p>
 
                 <a href="https://apps.apple.com/us/app/mushroom-driver/id1635598791" target="_blank" rel="noreferrer">
