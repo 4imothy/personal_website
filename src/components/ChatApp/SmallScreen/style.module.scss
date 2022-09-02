@@ -23,17 +23,19 @@
 }
 
 .icon {
-    position: absolute;
-    width: 4vh;
-    top: 100%;
-    left: 3vh;
-}
-
-.appIcon {
+    z-index: 3;
     position: absolute;
     width: 6vh;
     top: 100%;
-    left: 7vh;
+    left: 6vh;
+}
+
+.appIcon {
+    z-index: 3;
+    position: absolute;
+    width: 6vh;
+    top: 100%;
+    left: 14vh;
 }
 
 .demoContainer {
