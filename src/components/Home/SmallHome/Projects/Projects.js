@@ -5,9 +5,9 @@ import ProjIcon from './ProjIcon.js';
 import { Parallax } from 'react-scroll-parallax';
 
 //import photos
-import SorVisBG from '../../ProjectBackgrounds/SortingVisualizerIcon.png';
-import MushDrivBG from '../../ProjectBackgrounds/MushroomDriver.png';
-import ChatAppBG from '../../ProjectBackgrounds/ChatAppIcon.png';
+import SorVisBG from '../../ProjectBackgrounds/SortingVisualizerIcon.jpg';
+import MushDrivBG from '../../ProjectBackgrounds/MushroomDriver.jpg';
+import ChatAppBG from '../../ProjectBackgrounds/ChatAppIcon.jpg';
 import FishFeedBG from '../../ProjectBackgrounds/FishyFeederBackground.jpg';
 import MetFinBG from '../../ProjectBackgrounds/MetFinBackground.jpg';
 

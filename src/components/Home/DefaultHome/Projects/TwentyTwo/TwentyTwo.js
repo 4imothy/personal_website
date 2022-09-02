@@ -3,9 +3,9 @@ import { Parallax } from 'react-scroll-parallax';
 import IconOutline from '../IconOutline.js';
 
 //importing images for icons
-import MushDriveBG from '../../../ProjectBackgrounds/MushroomDriver.png';
-import ChatAppBG from '../../../ProjectBackgrounds/ChatAppIcon.png';
-import SorVisBG from '../../../ProjectBackgrounds/SortingVisualizerIcon.png';
+import MushDriveBG from '../../../ProjectBackgrounds/MushroomDriver.jpg';
+import ChatAppBG from '../../../ProjectBackgrounds/ChatAppIcon.jpg';
+import SorVisBG from '../../../ProjectBackgrounds/SortingVisualizerIcon.jpg';
 
 const TwentyTwo = () => {
     return (
