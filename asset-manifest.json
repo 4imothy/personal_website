@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.b40fe9df.css",
-    "main.js": "/static/js/main.2be51be5.js",
+    "main.css": "/static/css/main.cd0e3caa.css",
+    "main.js": "/static/js/main.760dde4b.js",
     "static/js/787.6568e1bc.chunk.js": "/static/js/787.6568e1bc.chunk.js",
     "static/media/BlueWater.jpg": "/static/media/BlueWater.98610beb129670afcb11.jpg",
     "static/media/ShoesOutlook.jpg": "/static/media/ShoesOutlook.d94af10ce6f2ff437947.jpg",
-    "static/media/MushroomDriver.png": "/static/media/MushroomDriver.f7bed86643e7f11de0c4.png",
+    "static/media/MushroomDriver.jpg": "/static/media/MushroomDriver.f7bed86643e7f11de0c4.jpg",
     "static/media/MeOnBridge.jpg": "/static/media/MeOnBridge.ca578dfd47b7266902e5.jpg",
     "static/media/MeInCrevice.jpg": "/static/media/MeInCrevice.cf36b7b92d69543a8772.jpg",
     "static/media/Sunset.jpg": "/static/media/Sunset.eedfd0e3d90d1ec1f651.jpg",
     "static/media/Mars.png": "/static/media/Mars.6cc93faf7796e11ae1b9.png",
     "static/media/MetFinBackground.jpg": "/static/media/MetFinBackground.17cbf7a478692e995bac.jpg",
     "static/media/SpaceShip.png": "/static/media/SpaceShip.0f3b4d922c61b1bc0157.png",
-    "static/media/ChatAppIcon.png": "/static/media/ChatAppIcon.af4dd8799444dcdd8dee.png",
+    "static/media/SortingVisualizerIcon.jpg": "/static/media/SortingVisualizerIcon.39a8c8d831ac3d7ac847.jpg",
+    "static/media/ChatAppIcon.jpg": "/static/media/ChatAppIcon.af4dd8799444dcdd8dee.jpg",
     "static/media/moon.png": "/static/media/moon.5560c7c1bf51ab1fa2e2.png",
     "static/media/Jupiter.png": "/static/media/Jupiter.f353edbdee74cba87a8f.png",
     "static/media/Arrows.png": "/static/media/Arrows.70810c3bb74bbd6fb337.png",
@@ -32,6 +33,8 @@
     "static/media/gameIcon.png": "/static/media/gameIcon.5e406d5343d559b6f382.png",
     "static/media/Moon.png": "/static/media/Moon.9c058495258e3a48d894.png",
     "static/media/homeIconHover.png": "/static/media/homeIconHover.b4236222b4b470f00997.png",
+    "static/media/openApp.png": "/static/media/openApp.405e4cb2e7129846e050.png",
+    "static/media/openAppHover.png": "/static/media/openAppHover.0adb4e45395ae59930b3.png",
     "static/media/projectsIconHover.png": "/static/media/projectsIconHover.3b9191a43f1c66c6088c.png",
     "static/media/React.png": "/static/media/React.acafea2e0b47952625c7.png",
     "static/media/CSharp.png": "/static/media/CSharp.15f7b7fa596f29c44592.png",
@@ -51,12 +54,12 @@
     "static/media/menuIcon.png": "/static/media/menuIcon.2bd3c0a40e434cfc2cab.png",
     "static/media/mailIcon.png": "/static/media/mailIcon.e07eb883f900b6ab78df.png",
     "index.html": "/index.html",
-    "main.b40fe9df.css.map": "/static/css/main.b40fe9df.css.map",
-    "main.2be51be5.js.map": "/static/js/main.2be51be5.js.map",
+    "main.cd0e3caa.css.map": "/static/css/main.cd0e3caa.css.map",
+    "main.760dde4b.js.map": "/static/js/main.760dde4b.js.map",
     "787.6568e1bc.chunk.js.map": "/static/js/787.6568e1bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b40fe9df.css",
-    "static/js/main.2be51be5.js"
+    "static/css/main.cd0e3caa.css",
+    "static/js/main.760dde4b.js"
   ]
 }
