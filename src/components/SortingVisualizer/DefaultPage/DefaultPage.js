@@ -16,15 +16,12 @@ const Content = () => {
         <>
             <div className={styles.text}>
                 <p>
-                    Mushroom Driver is a game I created with Unity during summer 2022.
-                    In this game you take control of one of many possible cars and drive
-                    as long as you can through a mushroom land. Over time your car gets
-                    faster and your turns must become sharper. There is also a global
-                    leaderboard where you can display your username and show that you
-                    are one of the best mushrooms drivers in the world.
-                    <br />
-                    <br />
-                    The game is available on the Apple App Store.
+                    This sorting visualizer is a tool to help anyone visualize the processes that take place 
+                    in many popular algorithms. As of now the project contains four sorting algorithms, 
+                    Merge Sort, Quick Sort, Heap Sort and Bubble Sort. This app was built using react. For
+                    each sort two arrays are created, the array that stores values and the visual array which 
+                    turns those values into blocks with corresponding heights. I created this during the end of 
+                    summer/beginning of school in fall 2022.
                 </p>
                 <a href="https://github.com/4tlc/sorting_visualizer" target="_blank" rel="noreferrer">
                     <img className={styles.icon} src={ghIcon} alt={"See On GitHub"} onMouseOver={(e) => {
