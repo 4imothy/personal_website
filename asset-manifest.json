@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd0e3caa.css",
-    "main.js": "/static/js/main.760dde4b.js",
+    "main.js": "/static/js/main.40977f7a.js",
     "static/js/787.6568e1bc.chunk.js": "/static/js/787.6568e1bc.chunk.js",
     "static/media/BlueWater.jpg": "/static/media/BlueWater.98610beb129670afcb11.jpg",
     "static/media/ShoesOutlook.jpg": "/static/media/ShoesOutlook.d94af10ce6f2ff437947.jpg",
@@ -55,11 +55,11 @@
     "static/media/mailIcon.png": "/static/media/mailIcon.e07eb883f900b6ab78df.png",
     "index.html": "/index.html",
     "main.cd0e3caa.css.map": "/static/css/main.cd0e3caa.css.map",
-    "main.760dde4b.js.map": "/static/js/main.760dde4b.js.map",
+    "main.40977f7a.js.map": "/static/js/main.40977f7a.js.map",
     "787.6568e1bc.chunk.js.map": "/static/js/787.6568e1bc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd0e3caa.css",
-    "static/js/main.760dde4b.js"
+    "static/js/main.40977f7a.js"
   ]
 }
