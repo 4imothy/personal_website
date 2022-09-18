@@ -3,6 +3,8 @@ import AppStoreIcon from '../Images/AppStoreIcon.png';
 import AppStoreIconHover from '../Images/AppStoreIconHover.png';
 import GooglePlayIcon from '../Images/googlePlayIcon.png';
 import GooglePlayIconHover from '../Images/googlePlayIconHover.png'; 
+import GitHubIcon from '../Images/githubIcon.png'
+import GitHubIconHover from '../Images/githubIconHover.png'
 import { useEffect } from 'react';
 
 const SmallScreen = () => {
@@ -51,7 +53,7 @@ function Text() {
                 </p>
 
                 <a href="https://apps.apple.com/us/app/mushroom-driver/id1635598791" target="_blank" rel="noreferrer">
-                    <img className={styles.icon} src={AppStoreIcon} alt={"See On GitHub"} onMouseOver={(e) => {
+                    <img className={styles.icon} src={AppStoreIcon} alt={"See On App Store"} onMouseOver={(e) => {
                         e.currentTarget.src = AppStoreIconHover;
                     }}
                         onMouseLeave={(e) => {
@@ -59,7 +61,7 @@ function Text() {
                         }} />
                 </a>
                 <a href="https://apps.apple.com/us/app/mushroom-driver/id1635598791" target="_blank" rel="noreferrer">
-                    <img className={styles.icon} src={GooglePlayIcon} alt={"See On GitHub"} onMouseOver={(e) => {
+                    <img className={styles.icon} src={GooglePlayIcon} alt={"See On Google Play"} onMouseOver={(e) => {
                         e.currentTarget.src = GooglePlayIconHover;
                     }}
                         onMouseLeave={(e) => {
@@ -67,6 +69,17 @@ function Text() {
                         }}
                         style={{
                             left: '35%',
+                        }} />
+                </a>
+                <a href="https://github.com/4tlc/MushroomDriver"target="_blank" rel="noreferrer">
+                    <img className={styles.icon} src={GitHubIcon} alt={"See On GitHub"} onMouseOver={(e) => {
+                        e.currentTarget.src = GitHubIconHover;
+                    }}
+                        onMouseLeave={(e) => {
+                            e.currentTarget.src = GitHubIcon;
+                        }}
+                        style={{
+                            left: '50%',
                         }} />
                 </a>
             </div>
