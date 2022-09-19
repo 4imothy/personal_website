@@ -1,8 +1,8 @@
-import BlueWater from './AboutMePhotos/BlueWater.jpg';
-import MeInCrevice from './AboutMePhotos/MeInCrevice.jpg';
-import MeOnBridge from './AboutMePhotos/MeOnBridge.jpg';
-import Sunset from './AboutMePhotos/Sunset.jpg';
 import styles from './AboutMePhotos.module.scss';
+import BlueWater from '../../AboutMeImages/BlueWater.jpg';
+import MeInCrevice from '../../AboutMeImages/MeInCrevice.jpg';
+import MeOnBridge from '../../AboutMeImages/MeOnBridge.jpg';
+import Sunset from '../../AboutMeImages/Sunset.jpg';
 
 const AboutMePhotos = () => {
     return (

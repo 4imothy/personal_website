@@ -1,10 +1,10 @@
 import { Parallax } from 'react-scroll-parallax';
 import styles from './Images.module.scss';
-import shoeOutlook from './Images/ShoesOutlook.jpg';
-import blueWater from './Images/BlueWater.jpg';
-import meInCrevice from './Images/MeInCrevice.jpg';
-import sunset from './Images/Sunset.jpg';
-import meOnBridge from './Images/MeOnBridge.jpg';
+import shoeOutlook from '../../AboutMeImages/ShoesOutlook.jpg';
+import blueWater from '../../AboutMeImages/BlueWater.jpg';
+import meInCrevice from '../../AboutMeImages/MeInCrevice.jpg';
+import sunset from '../../AboutMeImages/Sunset.jpg';
+import meOnBridge from '../../AboutMeImages/MeOnBridge.jpg'
 
 const Images = () => {
     return (
