@@ -2,7 +2,7 @@ import styles from './style.module.scss';
 import AppStoreIcon from '../Images/AppStoreIcon.png';
 import AppStoreIconHover from '../Images/AppStoreIconHover.png';
 import GooglePlayIcon from '../Images/googlePlayIcon.png';
-import GooglePlayIconHover from '../Images/googlePlayIconHover.png'; 
+import GooglePlayIconHover from '../Images/googlePlayIconHover.png';
 import GitHubIcon from '../Images/githubIcon.png';
 import GitHubIconHover from '../Images/githubIconHover.png'
 
@@ -40,7 +40,7 @@ const Content = () => {
                             left: '12%',
                         }}/>
                 </a>
-                <a href="https://github.com/4tlc/MushroomDriver" target="_blank" rel="noreferrer">
+                <a href="https://github.com/4tlc/mushroom_driver" target="_blank" rel="noreferrer">
                     <img className={styles.icon} src={GitHubIcon} alt={"See On Google Play"} onMouseOver={(e) => {
                         e.currentTarget.src = GitHubIconHover;
                     }}
