@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.title{ 
+.title{
     pointer-events: none;
     z-index: 1;
     display: flex;
@@ -22,14 +22,19 @@
 }
 
 .text {
+    background-color: rgba(185,143,174,0.5);
+    border-radius: 2%;
+    font: bold 30px arial;
+    color: $defaultText;
+}
+
+.textContainer {
+    margin-left: 5%;
     pointer-events: none;
     z-index: 1;
     display: flex;
     position: absolute;
-    color: $defaultText;
     width: 35%;
-    margin-left: 5%;
-    font: bold 30px arial;
 }
 
 .icon {
@@ -40,7 +45,7 @@
     top: 100%;
 }
 
-.appIcon{ 
+.appIcon{
     pointer-events: all;
     position: absolute;
     width: 10%;
@@ -48,7 +53,7 @@
     top: 100%;
 }
 
-.demo{ 
+.demo{
     position: absolute;
     width: 40%;
     height: 50%;

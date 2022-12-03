@@ -26,6 +26,7 @@ function Text() {
     return (
         <div className={styles.text}>
             <p>
+                (As of Nov 28th 2022 Heroku ended support for the free tier ending the message sending functionality)
                 This is an app I made in the beginning of the summer of 2022. In order
                 to begin chatting you just need to enter a username and a room. You can then
                 begin instant messaging with any number of people in the same room.
