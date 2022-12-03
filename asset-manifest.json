@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd0e3caa.css",
-    "main.js": "/static/js/main.f5d90f21.js",
+    "main.css": "/static/css/main.e6745e28.css",
+    "main.js": "/static/js/main.b37d1ac8.js",
     "static/js/787.6568e1bc.chunk.js": "/static/js/787.6568e1bc.chunk.js",
     "static/media/MushroomDriver.jpg": "/static/media/MushroomDriver.f7bed86643e7f11de0c4.jpg",
     "static/media/BlueWater.jpg": "/static/media/BlueWater.d30adaabe201c0048da4.jpg",
@@ -54,12 +54,12 @@
     "static/media/menuIcon.png": "/static/media/menuIcon.2bd3c0a40e434cfc2cab.png",
     "static/media/mailIcon.png": "/static/media/mailIcon.e07eb883f900b6ab78df.png",
     "index.html": "/index.html",
-    "main.cd0e3caa.css.map": "/static/css/main.cd0e3caa.css.map",
-    "main.f5d90f21.js.map": "/static/js/main.f5d90f21.js.map",
+    "main.e6745e28.css.map": "/static/css/main.e6745e28.css.map",
+    "main.b37d1ac8.js.map": "/static/js/main.b37d1ac8.js.map",
     "787.6568e1bc.chunk.js.map": "/static/js/787.6568e1bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd0e3caa.css",
-    "static/js/main.f5d90f21.js"
+    "static/css/main.e6745e28.css",
+    "static/js/main.b37d1ac8.js"
   ]
 }
