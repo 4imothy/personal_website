@@ -6,7 +6,6 @@ import Sunset from '../../AboutMeImages/Sunset.jpg';
 const AboutMePhotos = () => {
     return (
         <div style={{
-            backgroundColor: 'red',
             width: '80%',
             marginLeft: '10%', 
             display: 'flex',
