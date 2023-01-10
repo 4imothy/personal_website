@@ -10,12 +10,8 @@ const HomeNoParallax = () => {
     <ParallaxProvider>
       <Title />
       <AllIcons />
-      <div style={{
-        height: '150vh'
-      }}>
-        <AboutMeText />
-        <AboutMePhotos />
-      </div>
+      <AboutMeText />
+      <AboutMePhotos />
       <Projects />
     </ParallaxProvider >
   );
