@@ -1,11 +1,14 @@
 import BaseIcon from './BaseIcon.js';
-import CSharp from './IconImages/CSharp.png';
-import CSS from './IconImages/CSS.png';
-import HTML from './IconImages/HTML.png';
-import Java from './IconImages/Java.png';
-import JavaScript from './IconImages/JavaScript.png';
-import IconForReact from './IconImages/React.png';
-import Unity from './IconImages/Unity.png';
+import CSharp_Icon from '../../IconImages/CSharp.png';
+import CSS_Icon from '../../IconImages/CSS.png';
+import HTML_Icon from '../../IconImages/HTML.png';
+import Java_Icon from '../../IconImages/Java.png';
+import JavaScript_Icon from '../../IconImages/JavaScript.png';
+import React_Icon from '../../IconImages/React.png';
+import Unity_Icon from '../../IconImages/Unity.png';
+import ZSH_Icon from '../../IconImages/zsh.png';
+import Python_Icon from '../../IconImages/python.png';
+import Tensorflow_Icon from '../../IconImages/tensorflow.png';
 import { Parallax } from 'react-scroll-parallax';
 
 const AllIcons = () => {
@@ -14,16 +17,21 @@ const AllIcons = () => {
         <>
             <Parallax style={{
                 display: 'flex',
+                height: '30vh',
+                width: '100%',
                 justifyContent: 'center',
-                height: '30vh'
+                alignItems: 'center'
             }} speed={10}>
-                <BaseIcon Icon={Java} Width={100} />
-                <BaseIcon Icon={JavaScript} Width={100} />
-                <BaseIcon Icon={CSharp} Width={70} />
-                <BaseIcon Icon={IconForReact} Width={80} />
-                <BaseIcon Icon={CSS} Width={90} />
-                <BaseIcon Icon={HTML} Width={100} />
-                <BaseIcon Icon={Unity} Width={100} />
+                <BaseIcon Icon={JavaScript_Icon} Width={8} />
+                <BaseIcon Icon={Unity_Icon} Width={9} />
+                <BaseIcon Icon={Java_Icon} Width={10} />
+                <BaseIcon Icon={ZSH_Icon} Width={8} />
+                <BaseIcon Icon={CSS_Icon} Width={9} />
+                <BaseIcon Icon={Python_Icon} Width={10} />
+                <BaseIcon Icon={React_Icon} Width={9} />
+                <BaseIcon Icon={Tensorflow_Icon} Width={11} />
+                <BaseIcon Icon={CSharp_Icon} Width={8} />
+                <BaseIcon Icon={HTML_Icon} Width={10} />
             </Parallax>
         </>
 
