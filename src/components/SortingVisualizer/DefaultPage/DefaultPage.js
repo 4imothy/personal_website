@@ -4,8 +4,6 @@ import ghHover from '../Images/githubIconHover.png';
 import openAppIcon from '../Images/openApp.png';
 import openAppHover from '../Images/openAppHover.png';
 
-import { useEffect } from 'react';
-
 const Title = () => {
     return (
         <div className={styles.titleContainer}>

@@ -1,4 +1,3 @@
-import React from 'react';
 import BaseIcon from './BaseIcon.js';
 import Java_Icon from '../../IconImages/Java.png';
 import JavaScript_Icon from '../../IconImages/JavaScript.png';
