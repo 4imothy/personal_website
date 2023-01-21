@@ -1,18 +1,18 @@
-import TwentyOneTitle from "./TwentyOneTitle";
+import Title from "./Title/Title";
 import { Parallax } from "react-scroll-parallax";
-import IconOutline from "../IconOutline";
+import IconOutline from "./IconOutline";
 
 //import icons
-import MetFinBG from '../../../ProjectBackgrounds/MetFinBackground.jpg';
-import FishFeedBG from '../../../ProjectBackgrounds/FishyFeederBackground.jpg';
+import MetFinBG from '../../ProjectBackgrounds/MetFinBackground.jpg';
+import FishFeedBG from '../../ProjectBackgrounds/FishyFeederBackground.jpg';
 
 const TwentyOne = () => {
     return (
         <div style={{
-            marginTop: '10%',
+            marginTop: '5%',
         }}>
-            <TwentyOneTitle />
-            <Parallax scale={[1, 1.2]} style={{
+            <Title text="2021" split={1.5} relSize={.8} />
+             <Parallax scale={[1, 1.2]} style={{
                 marginTop: '3%',
                 display: 'flex',
                 flexDirection: 'row',

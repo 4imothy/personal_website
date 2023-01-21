@@ -1,16 +1,18 @@
-import TwentyTwoTitle from './TwentyTwoTitle.js';
+import Title from "./Title/Title";
 import { Parallax } from 'react-scroll-parallax';
-import IconOutline from '../IconOutline.js';
+import IconOutline from './IconOutline.js';
 
 //importing images for icons
-import MushDriveBG from '../../../ProjectBackgrounds/MushroomDriver.jpg';
-import ChatAppBG from '../../../ProjectBackgrounds/ChatAppIcon.jpg';
-import SorVisBG from '../../../ProjectBackgrounds/SortingVisualizerIcon.jpg';
+import MushDriveBG from '../../ProjectBackgrounds/MushroomDriver.jpg';
+import ChatAppBG from '../../ProjectBackgrounds/ChatAppIcon.jpg';
+import SorVisBG from '../../ProjectBackgrounds/SortingVisualizerIcon.jpg';
 
 const TwentyTwo = () => {
     return (
-        <div>
-            <TwentyTwoTitle />
+        <div style={{
+            marginTop: '5%'
+        }}>
+            <Title text="2022" split={1.5} relSize={.8}/>
             <Parallax scale={[1, 1.2]} style={{
                 marginTop: '3%',
             }}>
@@ -26,7 +28,7 @@ const TwentyTwo = () => {
                     display: 'flex',
                     flexDirection: 'row',
                     justifyContent: 'space-around',
-                    marginTop: '7%'
+                    marginTop: '1%'
                 }}>
                     <IconOutline img={ChatAppBG} linkTo="/ChatApp" altImg="Chat App" firstwords="Online" secondWords="Chat App" />
                 </div>
