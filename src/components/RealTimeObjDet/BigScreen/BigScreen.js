@@ -18,11 +18,12 @@ const Content = () => {
         }}> 
           <div className={styles.text}>
             <p>
-              During winter break of my sophomore year I set out to learn more about machine learning. This pursuit ended in creating a
-              trained model that detects in real time whether a person is throwing a rock, paper or scissors. I began this project by 
-              learning about diffent types of learning algorithms and the tensorflow library. Then I set out to create my own model. <br/>
-              The first step is to collect the images, then I defined bounding boxes around the object that is to be detected.
-              I then trained the model to be able to detect the positions in real time.
+              During winter break of my sophomore year, I set out to deepen my understanding of machine learning 
+              by creating a trained model that could detect, in real-time, whether a person was throwing rock, paper, or scissors. 
+              To achieve this, I familiarized myself with various learning algorithms and the Tensorflow library, and 
+              subsequently set out to design and build my own model. My process began with gathering a dataset of images and 
+              defining bounding boxes around the objects to be detected. Through training, 
+              I was able to successfully teach the model to recognize and identify these objects in real-time.
             </p>
         </div>
           <div className={styles.text}>

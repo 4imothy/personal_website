@@ -1,7 +1,6 @@
 @import '../../colors.scss';
  
 .titleContainer {
-    pointer-events: none;
     z-index: 1;
     text-align: center;
     color: $darkBackground;
@@ -13,7 +12,6 @@
 
 .text {
     flex: 1;
-    pointer-events: none;
     z-index: 1;
     color: $darkBackground;
     -webkit-text-stroke-width: 1px;
@@ -28,7 +26,7 @@
 }
 
 .frame {
-background-color: red;
+    background-color: #5596A7;
     left: 52%;
     top: 20%;
 }

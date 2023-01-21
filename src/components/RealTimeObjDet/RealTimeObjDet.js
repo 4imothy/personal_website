@@ -23,10 +23,7 @@ const RealTimeObjDet= () => {
 
       useEffect(() =>{
       document.title = "Real Time Object Detection";
-      document.body.setAttribute('style', 'background: #6a8f7a;'
-          + '  -webkit-background-size: cover;'
-          + '-moz-background-size: cover;'
-          + '-o-background-size: cover;'
+      document.body.setAttribute('style', 'background: #5596A7;'
           + 'background-size: cover'
         );
     });
