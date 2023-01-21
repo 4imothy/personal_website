@@ -1,6 +1,4 @@
-import ProjectTitle from './Title/ProjectTitle.js';
-import TwentyTwoTitle from './TwentyTwoTitle.js';
-import TwentyOneTitle from './TwentyOneTitle.js';
+import Title from './Title/Title.js';
 import ProjIcon from './ProjIcon.js';
 import { Parallax } from 'react-scroll-parallax';
 
@@ -10,14 +8,27 @@ import MushDrivBG from '../../ProjectBackgrounds/MushroomDriver.jpg';
 import ChatAppBG from '../../ProjectBackgrounds/ChatAppIcon.jpg';
 import FishFeedBG from '../../ProjectBackgrounds/FishyFeederBackground.jpg';
 import MetFinBG from '../../ProjectBackgrounds/MetFinBackground.jpg';
+import objectDetection from '../../ProjectBackgrounds/tensorflow.png';
 
 const Projects = () => {
     return (
         <div id="projects">
-            <ProjectTitle />
-            <TwentyTwoTitle />
+            <Title text="Projects" split={3} relSize={1} />
+            <Title text="2023" split={1.5} relSize={.8} />
             <Parallax scale={[1, 1.2]} style={{
-                marginTop: '7%',
+                marginTop: '6%',
+                height: '40vh',
+            }}>
+            <div style={{
+                    display: 'flex',
+                    justifyContent: 'space-around'
+                }}>
+                <ProjIcon to="/RealTimeObjDet" img={objectDetection} altImg="Sorting Visualizer" firstWords="Sorting" secondWords="Visualizer" />
+            </div>
+            </Parallax>
+            <Title text="2022" split={1.5} relSize={.8} />
+            <Parallax scale={[1, 1.2]} style={{
+                marginTop: '6%',
                 height: '70vh',
             }}>
                 <div style={{
@@ -29,15 +40,16 @@ const Projects = () => {
                 </div>
                 <div style={{
                     display: 'flex',
-                    justifyContent: 'space-around'
+                    justifyContent: 'space-around',
+                    marginTop: '3%'
                 }}>
                     <ProjIcon to="/ChatApp" img={ChatAppBG} altImg="Chat App" firstWords="Online" secondWords="Chat App" />
                 </div>
             </Parallax>
 
-            <TwentyOneTitle />
+            <Title text="2021" split={1.5} relSize={.8} />
             <Parallax scale={[1, 1.2]} style={{
-                marginTop: '7%',
+                marginTop: '6%',
                 height: '40vh',
             }}>
                 <div style={{

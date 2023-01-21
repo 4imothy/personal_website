@@ -1,26 +1,25 @@
 import { Parallax } from "react-scroll-parallax";
-import styles from './ProjectTitle.module.scss';
+import styles from './title.module.scss';
 
-const ProjectTitle = () => {
-
-    const letters = "Projects".split("");
-    
+const title = ({text, split, relSize}) => {
+    const letters = text.split("");
+  
     return (
         <>
         <span className={styles.word}>
             {letters.map((letter, i) => (
                 <Parallax
                     key={`ProjectTitle-${i}`}
-                    translateX={[100 * (i - 3), 0]}
+                    translateX={[100 * (i - split), 0]}
                     className={styles.letter}
                 >
                     {letter}
                 </Parallax>
             ))}
         </span>
-        <Parallax scaleX={[1,.75]} className={styles.underline} />
+        <Parallax scaleX={[relSize * 1,relSize * .75]} className={styles.underline} />
     </>    );
 }
 
 
-export default ProjectTitle;
+export default title;
