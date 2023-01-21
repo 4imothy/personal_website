@@ -6,6 +6,7 @@ import ChatApp from './components/ChatApp/ChatApp';
 import MushroomDriver from './components/MushroomDriver/MushroomDriver';
 import FishyFeeder from './components/FishyFeeder/FishyFeeder';
 import SortingVisualizer from './components/SortingVisualizer/SortingVisualizer';
+import RealTimeObjDet from './components/RealTimeObjDet/RealTimeObjDet'
 import NavBar from './components/NavBar/NavBar.js'
 import { Route, Routes } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ export default function App() {
         <Route path='/ChatApp' element={<ChatApp />} />
         <Route path='/MushroomDriver' element={<MushroomDriver />} />
         <Route path='/FishyFeeder' element={<FishyFeeder />} />
+        <Route path='/RealTimeObjDet' element={<RealTimeObjDet />} />
       </Routes>
     </>
   );
