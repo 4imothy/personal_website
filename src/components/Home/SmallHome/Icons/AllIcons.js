@@ -9,6 +9,7 @@ import Unity_Icon from '../../IconImages/Unity.png';
 import ZSH_Icon from '../../IconImages/zsh.png';
 import Python_Icon from '../../IconImages/python.png';
 import Tensorflow_Icon from '../../IconImages/tensorflow.png';
+import Rust_Icon from '../../IconImages/rust.png';
 import { Parallax } from 'react-scroll-parallax';
 
 const AllIcons = () => {
@@ -16,22 +17,25 @@ const AllIcons = () => {
     return (
         <>
             <Parallax style={{
-                display: 'flex',
+                position: 'relative',
+                justifyContent: 'center',
+                alignItems: 'center',
+                flexWrap: 'wrap',
                 height: '30vh',
                 width: '100%',
-                justifyContent: 'center',
-                alignItems: 'center'
+                display:"flex",
             }} speed={10}>
                 <BaseIcon Icon={JavaScript_Icon} Width={8} />
-                <BaseIcon Icon={Unity_Icon} Width={9} />
-                <BaseIcon Icon={Java_Icon} Width={10} />
+                <BaseIcon Icon={Unity_Icon} Width={8} />
+                <BaseIcon Icon={Java_Icon} Width={8} />
                 <BaseIcon Icon={ZSH_Icon} Width={8} />
-                <BaseIcon Icon={CSS_Icon} Width={9} />
-                <BaseIcon Icon={Python_Icon} Width={10} />
-                <BaseIcon Icon={React_Icon} Width={9} />
-                <BaseIcon Icon={Tensorflow_Icon} Width={11} />
+                <BaseIcon Icon={CSS_Icon} Width={8} />
+                <BaseIcon Icon={Python_Icon} Width={8} />
+                <BaseIcon Icon={React_Icon} Width={8} />
+                <BaseIcon Icon={Tensorflow_Icon} Width={8} />
                 <BaseIcon Icon={CSharp_Icon} Width={8} />
-                <BaseIcon Icon={HTML_Icon} Width={10} />
+                <BaseIcon Icon={HTML_Icon} Width={8} />
+                <BaseIcon Icon={Rust_Icon} Width={8} />
             </Parallax>
         </>
 

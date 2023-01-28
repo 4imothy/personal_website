@@ -2,6 +2,7 @@
     return (
         <img style={{
             width: `${Width}%`,
+            minWidth: `9vh`
         }} src={Icon} alt="Icon"/>
     );
 }
