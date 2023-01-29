@@ -1,5 +1,5 @@
-import githubIcon from '../Images/githubIcon.png';
-import githubIconHover from '../Images/githubIconHover.png';
+import githubIcon from '../../SharedIcons/githubIcon.png';
+import githubIconHover from '../../SharedIcons/githubIconHover.png';
 import toAppIcon from '../Images/toAppIcon.png';
 import toAppIconHover from '../Images/toAppIconHover.png';
 import styles from './style.module.scss';

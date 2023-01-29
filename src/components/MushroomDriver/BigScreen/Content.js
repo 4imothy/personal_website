@@ -3,8 +3,8 @@ import AppStoreIcon from '../Images/AppStoreIcon.png';
 import AppStoreIconHover from '../Images/AppStoreIconHover.png';
 import GooglePlayIcon from '../Images/googlePlayIcon.png';
 import GooglePlayIconHover from '../Images/googlePlayIconHover.png';
-import GitHubIcon from '../Images/githubIcon.png';
-import GitHubIconHover from '../Images/githubIconHover.png'
+import GitHubIcon from '../../SharedIcons/githubIcon.png';
+import GitHubIconHover from '../../SharedIcons/githubIconHover.png'
 
 const Content = () => {
     return (

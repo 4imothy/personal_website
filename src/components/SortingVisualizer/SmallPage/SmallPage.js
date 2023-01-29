@@ -1,6 +1,6 @@
 import styles from './style.module.scss';
-import ghIcon from '../Images/githubIcon.png';
-import ghHover from '../Images/githubIconHover.png';
+import ghIcon from '../../SharedIcons/githubIcon.png';
+import ghHover from '../../SharedIcons/githubIconHover.png';
 import openAppIcon from '../Images/openApp.png';
 import openAppHover from '../Images/openAppHover.png';
 
