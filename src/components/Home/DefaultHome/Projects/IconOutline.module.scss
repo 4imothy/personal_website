@@ -10,8 +10,14 @@
 }
 
 .container:hover .text {
-  text-shadow: -3px -3px 0 $hoverText, 3px -3px 0 $hoverText, -3px 3px 0 $hoverText, 3px 3px 0 $hoverText;
+    text-shadow: 
+        -1px -1px 0 $hoverText,
+         1px -1px 0 $hoverText,
+        -1px  1px 0 $hoverText,
+         1px  1px 0 $hoverText,
+        0 0 3px $hoverText;
 }
+
 
 .icon {
   width: 100%;
