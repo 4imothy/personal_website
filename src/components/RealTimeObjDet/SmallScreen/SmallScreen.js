@@ -22,7 +22,7 @@ function Text() {
               I was able to successfully teach the model to recognize and identify these objects in real-time. 
             </p>
 
-            <a href="https://github.com/4tlc/realtime_rock_paper_scissors_recognition_model" target="_blank" rel="noreferrer">
+            <a href="https://github.com/4imothy/realtime_rock_paper_scissors_recognition_model" target="_blank" rel="noreferrer">
                 <img className={styles.appIcon} src={ghIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                     e.currentTarget.src = ghHover;
                 }}

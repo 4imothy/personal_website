@@ -25,7 +25,7 @@ function Text() {
                 in a new window using the button below.
             </p>
 
-            <a href="https://github.com/4tlc/sorting_visualizer" target="_blank" rel="noreferrer">
+            <a href="https://github.com/4imothy/sorting_visualizer" target="_blank" rel="noreferrer">
                 <img className={styles.appIcon} src={ghIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                     e.currentTarget.src = ghHover;
                 }}
@@ -33,7 +33,7 @@ function Text() {
                         e.currentTarget.src = ghIcon;
                     }} />
             </a>
-            <a href="https://4tlc.github.io/sorting_visualizer" target="_blank" rel="noreferrer">
+            <a href="https://4imothy.github.io/sorting_visualizer/" target="_blank" rel="noreferrer">
                 <img className={styles.icon} src={openAppIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                     e.currentTarget.src = openAppHover;
                 }}
@@ -48,7 +48,7 @@ function Text() {
 function Demo() {
     return (
         <div className={styles.demoContainer}>
-            <iframe title="Sorting Visualizer Demo" className={styles.demo} width={500} height={500} src="https://4tlc.github.io/sorting_visualizer" />
+            <iframe title="Sorting Visualizer Demo" className={styles.demo} width={500} height={500} src="https://4imothy.github.io/sorting_visualizer/" />
         </div>
     );
 }

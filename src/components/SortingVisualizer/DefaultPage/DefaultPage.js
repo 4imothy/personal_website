@@ -25,7 +25,7 @@ const Content = () => {
                     summer/beginning of school in fall 2022. You can access it to the left or open the website
                 in a new window using the button below.
                 </p>
-                <a href="https://github.com/4tlc/sorting_visualizer" target="_blank" rel="noreferrer">
+                <a href="https://github.com/4imothy/sorting_visualizer" target="_blank" rel="noreferrer">
                     <img className={styles.icon} src={ghIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                         e.currentTarget.src = ghHover;
                     }}
@@ -36,7 +36,7 @@ const Content = () => {
                         }}/>
                 </a>
 
-                <a href="https://4tlc.github.io/sorting_visualizer" target="_blank" rel="noreferrer">
+                <a href="https://4imothy.github.io/sorting_visualizer/" target="_blank" rel="noreferrer">
                     <img className={styles.icon} src={openAppIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                         e.currentTarget.src = openAppHover;
                     }}
@@ -47,7 +47,7 @@ const Content = () => {
                         }} />
                 </a>
             </div>
-            <iframe title="Sorting Visualizer" className={styles.frame} width={400} height={500} src="https://4tlc.github.io/sorting_visualizer" />
+            <iframe title="Sorting Visualizer" className={styles.frame} width={400} height={500} src="https://4imothy.github.io/sorting_visualizer/" />
         </>
     );
 }

@@ -33,7 +33,7 @@ function Text() {
                 It is built with vanilla HTML, CSS and JavaScript.
             </p>
 
-            <a href="https://github.com/4tlc/FishyFeeder/" target="_blank" rel="noreferrer">
+            <a href="https://github.com/4imothy/FishyFeeder/" target="_blank" rel="noreferrer">
                 <img className={styles.icon} src={githubIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                     e.currentTarget.src = githubIconHover;
                 }}
@@ -41,7 +41,7 @@ function Text() {
                         e.currentTarget.src = githubIcon;
                     }} />
             </a>
-            <a href="https://4tlc.github.io/fishyfeeder/" target="_blank" rel="noreferrer">
+            <a href="https://4imothy.github.io/fishyfeeder/" target="_blank" rel="noreferrer">
                 <img className={styles.gameIcon} src={gameIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                     e.currentTarget.src = gameIconHover;
                 }}
@@ -56,7 +56,7 @@ function Text() {
 function EmbeddedGame() {
     return (
         <div className={styles.gameContainer}>
-            <iframe title="Fishy Feeder Game" src="https://4tlc.github.io/fishyfeeder/" className={styles.game} />
+            <iframe title="Fishy Feeder Game" src="https://4imothy.github.io/fishyfeeder/" className={styles.game} />
         </div>
     )
 }

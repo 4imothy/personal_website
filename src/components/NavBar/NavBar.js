@@ -28,7 +28,7 @@ const NavBar = () => {
                         <LinkInsideItem icon={homeIcon} hoverIcon={homeIconHover} to="/#home" />
                         <LinkInsideItem icon={projectsIcon} hoverIcon={projectsIconHover} to="/#projects" />
                         <LinkInsideItem icon={mailIcon} hoverIcon={mailIconHover} to="/#contactme" />
-                        <LinkOutsideItem icon={githubIcon} hoverIcon={githubHover} to="https://www.github.com/4tlc" />
+                        <LinkOutsideItem icon={githubIcon} hoverIcon={githubHover} to="https://www.github.com/4imothy" />
                     </div>
                 </CSSTransition>
                 <div className={styles.menuIconContainer}>

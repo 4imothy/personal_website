@@ -1,4 +1,3 @@
-import BigScreen from '../SortingVisualizer/DefaultPage/DefaultPage';
 import BigScreenNew from './BigScreen/BigScreen';
 import SmallScreen from './SmallScreen/SmallScreen.js';
 import { useEffect, useState } from 'react'; 

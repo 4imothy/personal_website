@@ -43,7 +43,7 @@ function Text() {
                         e.currentTarget.src = toAppIcon;
                     }} />
             </a>
-            <a href="https://www.github.com/4tlc/simplechatapp" target="_blank" rel="noreferrer">
+            <a href="https://www.github.com/4imothy/simplechatapp" target="_blank" rel="noreferrer">
                 <img className={styles.icon} src={githubIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                     e.currentTarget.src = githubIconHover;
                 }}

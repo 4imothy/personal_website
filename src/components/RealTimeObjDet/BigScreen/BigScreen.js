@@ -29,7 +29,7 @@ const Content = () => {
           <div className={styles.text}>
         <iframe title="Object Detection" className={styles.frame} width={500} height={300} src="https://youtube.com/embed/8uR1J-osmfc" /> 
             <br/>
-            <a href="https://github.com/4tlc/realtime_rock_paper_scissors_recognition_model" target="_blank" rel="noreferrer">
+            <a href="https://github.com/4imothy/realtime_rock_paper_scissors_recognition_model" target="_blank" rel="noreferrer">
                 <img className={styles.icon} src={ghIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                     e.currentTarget.src = ghHover;
                 }}

@@ -4,7 +4,7 @@ import AppStoreIconHover from '../Images/AppStoreIconHover.png';
 import GooglePlayIcon from '../Images/googlePlayIcon.png';
 import GooglePlayIconHover from '../Images/googlePlayIconHover.png';
 import GitHubIcon from '../../SharedIcons/githubIcon.png';
-import GitHubIconHover from '../../SharedIcons/githubIcon.png';
+import GitHubIconHover from '../../SharedIcons/githubIconHover.png';
 import { useEffect } from 'react';
 
 const SmallScreen = () => {
@@ -71,7 +71,7 @@ function Text() {
                             left: '35%',
                         }} />
                 </a>
-                <a href="https://github.com/4tlc/mushroom_driver"target="_blank" rel="noreferrer">
+                <a href="https://github.com/4imothy/mushroom_driver"target="_blank" rel="noreferrer">
                     <img className={styles.icon} src={GitHubIcon} alt={"See On GitHub"} onMouseOver={(e) => {
                         e.currentTarget.src = GitHubIconHover;
                     }}
