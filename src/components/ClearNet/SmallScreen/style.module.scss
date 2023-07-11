@@ -1,0 +1,57 @@
+@import "../../colors.scss";
+
+.title {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  font: bold 50px arial;
+  color: $background;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: $defaultText;
+}
+
+.text {
+  display: flex;
+  position: relative;
+  color: $darkBackground;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  width: 100%;
+  text-align: center;
+  font: bold 30px arial;
+}
+
+.icon {
+  z-index: 3;
+  position: absolute;
+  width: 6vh;
+  top: 100%;
+  left: 6vh;
+}
+
+.appIcon {
+  z-index: 3;
+  position: absolute;
+  width: 6vh;
+  top: 100%;
+  left: 14vh;
+}
+
+.demoContainer {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+}
+
+.demo {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translateX(-50%);
+}
