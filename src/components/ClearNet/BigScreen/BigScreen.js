@@ -30,6 +30,7 @@ const Content = () => {
           <a
             href="https://github.com/4imothy/clear_net/tree/main/examples"
             target="_blank"
+            rel="noreferrer"
           >
             github repository
           </a>{" "}
