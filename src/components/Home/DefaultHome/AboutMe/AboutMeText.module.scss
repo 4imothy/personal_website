@@ -6,6 +6,7 @@
     flex-flow: column wrap;
     justify-content: space-between;
 }
+
 .text{
     position: relative;
     font-size: 3vh;
@@ -19,4 +20,13 @@
     position: absolute;
     width: 100%;
     text-align: center;
+}
+
+.intro {
+    position: relative;
+    font-size: 10vh;
+    font-family: 'IMPACT', Times, serif;
+    font-weight: 900;
+    color: #5d87e9;
+    width: 100%;
 }
