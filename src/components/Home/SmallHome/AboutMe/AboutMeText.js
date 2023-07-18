@@ -1,12 +1,11 @@
 import styles from './Text.module.scss';
 
 const AboutMeText = () => {
-    const opening = 'Hi, I’m Tim';
-
     return (
         <div className={styles.container}>
-            <p className={styles.text}>{opening}</p>
             <p className={styles.text}>
+                <span className={styles.opening}>Hi, I'm Timothy.</span>
+                <br />
                 I’m a junior at Case Western Reserve University ('25) pursuing a double major in
                 Computer Science and Mathematics. Throughout my journey in those fields, I have
                 developed an interest in leveraging low-level languages with manual memory
