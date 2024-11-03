@@ -17,7 +17,7 @@
     font-size: 1em;
     border-radius: 1vh;
     z-index: -1;
-    padding: .5em 1em;
+    padding: 0.5em 1em;
     align-self: center;
     position: fixed;
     display: flex;
@@ -43,8 +43,8 @@
     width: 1em;
 }
 
-.line{ 
-    border-bottom: .7vh solid $defaultText;
+.line {
+    border-bottom: 0.7vh solid $defaultText;
 }
 
 form {
@@ -56,7 +56,7 @@ form {
     color: $defaultText;
     font-size: 3vh;
 
-    input[type="text"] {
+    input[type='text'] {
         width: 100%;
         outline: none;
         border-radius: 5px;
@@ -67,8 +67,8 @@ form {
         &:focus {
             border: 2px solid rgba(0, 206, 158, 1);
         }
-    }    
-    input[type="email"] {
+    }
+    input[type='email'] {
         width: 100%;
         outline: none;
         border-radius: 5px;
@@ -94,7 +94,7 @@ form {
         resize: none;
         border: 1px solid rgb(220, 220, 220);
         font: Arial;
-        
+
         &:focus {
             border: 2px solid rgb(0, 206, 158);
         }
@@ -104,9 +104,9 @@ form {
         margin-top: 1rem;
     }
 
-    input[type="submit"] {
+    input[type='submit'] {
         margin-top: 2rem;
-        padding: .3em;
+        padding: 0.3em;
         cursor: pointer;
         width: 50%;
         font-size: 3vh;

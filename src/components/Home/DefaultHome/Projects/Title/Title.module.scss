@@ -1,6 +1,6 @@
 @import '../../../../colors.scss';
 
-.word{ 
+.word {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -16,6 +16,6 @@
     width: 1em;
 }
 
-.underline{ 
+.underline {
     border-bottom: 1vh solid $defaultText;
 }

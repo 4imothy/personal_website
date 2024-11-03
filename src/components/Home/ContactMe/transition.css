@@ -1,17 +1,17 @@
-.receiveContainer-enter{
+.receiveContainer-enter {
     opacity: 0;
 }
 
-.receiveContainer-enter-active { 
+.receiveContainer-enter-active {
     opacity: 1;
     transition: opacity 1500ms;
 }
 
-.receiveContainer-exit{
+.receiveContainer-exit {
     opacity: 1;
 }
 
-.receiveContainer-exit-active{
+.receiveContainer-exit-active {
     opacity: 0;
     transition: opacity 1500ms;
 }

@@ -18,7 +18,6 @@
     position: absolute;
 }
 
-
 .titleContainer {
     pointer-events: none;
     z-index: 1;
@@ -39,7 +38,7 @@
     display: flex;
     position: absolute;
     color: $darkBackground;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, 0.5);
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $defaultText;
     border-radius: 10px;

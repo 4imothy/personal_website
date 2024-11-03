@@ -9,7 +9,7 @@ const BigScreen = () => {
             <Content />
             <Background />
         </>
-    )
-}
+    );
+};
 
 export default BigScreen;

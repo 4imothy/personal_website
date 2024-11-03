@@ -5,7 +5,7 @@ const Title = () => {
         <div className={styles.titleContainer}>
             <h1>Mushroom Driver</h1>
         </div>
-    )
-}
+    );
+};
 
 export default Title;

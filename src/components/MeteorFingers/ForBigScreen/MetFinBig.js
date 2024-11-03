@@ -1,10 +1,9 @@
-import Background from "./Background";
-import Description from "./Description";
+import Background from './Background';
+import Description from './Description';
 import Title from './Title.js';
-import VideoPlayer from "./VideoPlayer";
+import VideoPlayer from './VideoPlayer';
 
 const MeteorFingers = () => {
-
     return (
         <div>
             <Title />
@@ -13,6 +12,6 @@ const MeteorFingers = () => {
             <Background />
         </div>
     );
-}
+};
 
 export default MeteorFingers;

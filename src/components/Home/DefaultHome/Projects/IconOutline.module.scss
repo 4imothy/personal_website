@@ -1,37 +1,40 @@
 @import '../../../colors.scss';
 
 .container {
-  width: 30%;
-  height: 30vh;
-  position: relative;
-  text-align: center;
-  vertical-align: center;
-  justify-content: center;
+    width: 30%;
+    height: 30vh;
+    position: relative;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
 }
 
 .container:hover .text {
-    text-shadow: 
+    text-shadow:
         -1px -1px 0 $hoverText,
-         1px -1px 0 $hoverText,
-        -1px  1px 0 $hoverText,
-         1px  1px 0 $hoverText,
+        1px -1px 0 $hoverText,
+        -1px 1px 0 $hoverText,
+        1px 1px 0 $hoverText,
         0 0 3px $hoverText;
 }
 
-
 .icon {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
 .text {
-  left: 0;
-  top: 0;
-  width: 100%;
-  position: absolute;
-  color: $darkBackground;
-  font-size: 5vh;
-  font-weight: 900;
-  text-shadow: -1px -1px 0 $defaultText, 1px -1px 0 $defaultText, -1px 1px 0 $defaultText, 1px 1px 0 $defaultText;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    color: $darkBackground;
+    font-size: 5vh;
+    font-weight: 900;
+    text-shadow:
+        -1px -1px 0 $defaultText,
+        1px -1px 0 $defaultText,
+        -1px 1px 0 $defaultText,
+        1px 1px 0 $defaultText;
 }

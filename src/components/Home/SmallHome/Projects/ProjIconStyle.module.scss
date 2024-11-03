@@ -1,6 +1,6 @@
 @import '../../../colors.scss';
 
-.container{ 
+.container {
     width: 30%;
     height: 30vh;
     position: relative;
@@ -10,11 +10,11 @@
 }
 
 .container:hover .text {
-    text-shadow: 
+    text-shadow:
         -1px -1px 0 $hoverText,
-         1px -1px 0 $hoverText,
-        -1px  1px 0 $hoverText,
-         1px  1px 0 $hoverText,
+        1px -1px 0 $hoverText,
+        -1px 1px 0 $hoverText,
+        1px 1px 0 $hoverText,
         0 0 3px $hoverText;
 }
 
@@ -23,7 +23,7 @@
     height: 100%;
     border-radius: 10px;
 }
- 
+
 .text {
     top: 50%;
     left: 50%;
@@ -32,5 +32,9 @@
     color: $darkBackground;
     font-size: 3vh;
     font-weight: 900;
-    text-shadow: -1px -1px 0 $defaultText, 1px -1px 0 $defaultText, -1px 1px 0 $defaultText, 1px 1px 0 $defaultText; 
+    text-shadow:
+        -1px -1px 0 $defaultText,
+        1px -1px 0 $defaultText,
+        -1px 1px 0 $defaultText,
+        1px 1px 0 $defaultText;
 }

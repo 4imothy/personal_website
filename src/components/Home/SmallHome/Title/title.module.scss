@@ -1,12 +1,12 @@
 @import '../../../colors.scss';
 
-.textContainer{ 
+.textContainer {
     width: 100%;
     text-align: center;
     justify-content: center;
 }
 
-.text{ 
+.text {
     align-items: center;
     display: inline-block;
     text-transform: uppercase;
@@ -16,15 +16,15 @@
     color: $defaultText;
 }
 
-.imgText {    
-    transition:ease-in-out;
+.imgText {
+    transition: ease-in-out;
     position: relative;
     color: $darkBackground;
     font-weight: 500;
     font-size: 8vh;
 }
 
-.image{ 
+.image {
     margin-top: -2%;
     width: 10vh;
 }

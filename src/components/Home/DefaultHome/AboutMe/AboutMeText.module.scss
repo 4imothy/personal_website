@@ -1,13 +1,13 @@
 @import '../../../colors.scss';
 
-.root{ 
+.root {
     position: relative;
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
 }
 
-.text{
+.text {
     position: relative;
     font-size: 3vh;
     font-family: 'Times New Roman', Times, serif;
@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-.line{
+.line {
     position: absolute;
     width: 100%;
     text-align: center;

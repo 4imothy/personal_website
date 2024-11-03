@@ -1,7 +1,6 @@
 @import '../../../colors.scss';
 
-
-.container{ 
+.container {
     display: inline-block;
     margin-left: 50%;
 }
@@ -13,7 +12,7 @@
     transform: translateX(-50%);
 }
 
-.middle{ 
+.middle {
     display: flex;
     justify-content: center;
     text-align: center;

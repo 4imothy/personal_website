@@ -1,32 +1,32 @@
-@import "../../colors.scss";
+@import '../../colors.scss';
 
 .titleContainer {
-  z-index: 1;
-  text-align: center;
-  color: $darkBackground;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: $defaultText;
-  width: 100%;
-  font: bold 30px arial;
+    z-index: 1;
+    text-align: center;
+    color: $darkBackground;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $defaultText;
+    width: 100%;
+    font: bold 30px arial;
 }
 
 .text {
-  flex: 1;
-  z-index: 1;
-  color: $darkBackground;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: $defaultText;
-  margin-left: 5%;
-  font: bold 28px arial;
+    flex: 1;
+    z-index: 1;
+    color: $darkBackground;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $defaultText;
+    margin-left: 5%;
+    font: bold 28px arial;
 }
 
 .icon {
-  pointer-events: all;
-  width: 10%;
+    pointer-events: all;
+    width: 10%;
 }
 
 .frame {
-  background-color: #5596a7;
-  left: 52%;
-  top: 20%;
+    background-color: #5596a7;
+    left: 52%;
+    top: 20%;
 }

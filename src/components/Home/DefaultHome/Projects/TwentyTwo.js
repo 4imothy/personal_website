@@ -1,4 +1,4 @@
-import Title from "./Title/Title";
+import Title from './Title/Title';
 import { Parallax } from 'react-scroll-parallax';
 import IconOutline from './IconOutline.js';
 
@@ -9,32 +9,59 @@ import SorVisBG from '../../ProjectBackgrounds/SortingVisualizerIcon.jpg';
 
 const TwentyTwo = () => {
     return (
-        <div style={{
-            marginTop: '5%'
-        }}>
-            <Title text="2022" split={1.5} relSize={.8}/>
-            <Parallax scale={[1, 1.2]} style={{
-                marginTop: '3%',
-            }}>
-                <div style={{
-                    display: 'flex',
-                    flexDirection: 'row',
-                    justifyContent: 'space-around'
-                }}>
-                    <IconOutline img={SorVisBG} linkTo="/SortingVisualizer" altImg="Sorting Visualizer" firstwords="Sorting" secondWords="Visualizer" />
-                    <IconOutline img={MushDriveBG} linkTo="/MushroomDriver" altImg="Mushroom Driver" firstwords="Mushroom" secondWords="Driver" />
+        <div
+            style={{
+                marginTop: '5%',
+            }}
+        >
+            <Title text="2022" split={1.5} relSize={0.8} />
+            <Parallax
+                scale={[1, 1.2]}
+                style={{
+                    marginTop: '3%',
+                }}
+            >
+                <div
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'row',
+                        justifyContent: 'space-around',
+                    }}
+                >
+                    <IconOutline
+                        img={SorVisBG}
+                        linkTo="/SortingVisualizer"
+                        altImg="Sorting Visualizer"
+                        firstwords="Sorting"
+                        secondWords="Visualizer"
+                    />
+                    <IconOutline
+                        img={MushDriveBG}
+                        linkTo="/MushroomDriver"
+                        altImg="Mushroom Driver"
+                        firstwords="Mushroom"
+                        secondWords="Driver"
+                    />
                 </div>
-                <div style={{
-                    display: 'flex',
-                    flexDirection: 'row',
-                    justifyContent: 'space-around',
-                    marginTop: '1%'
-                }}>
-                    <IconOutline img={ChatAppBG} linkTo="/ChatApp" altImg="Chat App" firstwords="Online" secondWords="Chat App" />
+                <div
+                    style={{
+                        display: 'flex',
+                        flexDirection: 'row',
+                        justifyContent: 'space-around',
+                        marginTop: '1%',
+                    }}
+                >
+                    <IconOutline
+                        img={ChatAppBG}
+                        linkTo="/ChatApp"
+                        altImg="Chat App"
+                        firstwords="Online"
+                        secondWords="Chat App"
+                    />
                 </div>
-            </Parallax >
-        </div >
+            </Parallax>
+        </div>
     );
-}
+};
 
 export default TwentyTwo;

@@ -1,20 +1,22 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import styles from './style.module.scss';
-import { CSSTransition } from "react-transition-group";
-import { Parallax, ParallaxProvider } from "react-scroll-parallax";
-import { keys } from './EmailKeys.js'
+import { CSSTransition } from 'react-transition-group';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
+import { keys } from './EmailKeys.js';
 import './transition.css';
 
 function Title() {
     //turns into text
-    const letters = "Contact Me".split("");
+    const letters = 'Contact Me'.split('');
 
     return (
-        <div style={{
-            marginBottom: '3%',
-        }}>
-            <Parallax scaleX={[1, .7]} className={styles.line} />
+        <div
+            style={{
+                marginBottom: '3%',
+            }}
+        >
+            <Parallax scaleX={[1, 0.7]} className={styles.line} />
             <span className={styles.title}>
                 {letters.map((letter, i) => (
                     <Parallax
@@ -26,9 +28,9 @@ function Title() {
                     </Parallax>
                 ))}
             </span>
-            <Parallax scaleX={[1, .7]} className={styles.line} />
+            <Parallax scaleX={[1, 0.7]} className={styles.line} />
         </div>
-    )
+    );
 }
 
 const ContactForm = () => {
@@ -39,7 +41,7 @@ const ContactForm = () => {
             <div>
                 <p className={styles.receiveMessage}>Message Received</p>
             </div>
-        )
+        );
     }
 
     const form = useRef();
@@ -50,8 +52,8 @@ const ContactForm = () => {
             return;
         }
 
-        emailjs.sendForm(keys.serviceID, keys.templateId, form.current, keys.accountID)
-            .then((result) => {
+        emailjs.sendForm(keys.serviceID, keys.templateId, form.current, keys.accountID).then(
+            (result) => {
                 setName('');
                 setEmail('');
                 setMessage('');
@@ -59,28 +61,34 @@ const ContactForm = () => {
                 setTimeout(function () {
                     setReceived(false);
                 }, 1000);
-            }, () => {
-            });
+            },
+            () => {}
+        );
     };
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     //now is it not tracked
-    const nameChange = event => {
+    const nameChange = (event) => {
         setName(event.target.value);
     };
-    const emailChange = event => {
+    const emailChange = (event) => {
         setEmail(event.target.value);
     };
-    const messageChange = event => {
+    const messageChange = (event) => {
         setMessage(event.target.value);
     };
 
     return (
         <div className={styles.container} id="contactme">
             <ParallaxProvider>
-                <CSSTransition in={received} timeout={1500} classNames="receiveContainer" unmountOnExit>
+                <CSSTransition
+                    in={received}
+                    timeout={1500}
+                    classNames="receiveContainer"
+                    unmountOnExit
+                >
                     <Received />
                 </CSSTransition>
                 <div>
@@ -89,7 +97,12 @@ const ContactForm = () => {
                         <label>Name</label>
                         <input value={name} type="text" name="user_name" onChange={nameChange} />
                         <label>Email</label>
-                        <input value={email} type="email" name="user_email" onChange={emailChange} />
+                        <input
+                            value={email}
+                            type="email"
+                            name="user_email"
+                            onChange={emailChange}
+                        />
                         <label>Message</label>
                         <textarea value={message} name="message" onChange={messageChange} />
                         <input type="submit" value="Send" />

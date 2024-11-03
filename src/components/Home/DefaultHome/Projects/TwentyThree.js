@@ -7,9 +7,13 @@ import objectDetection from '../../ProjectBackgrounds/tensorflow.png';
 import gretBG from '../../ProjectBackgrounds/gret_bg.png';
 import clearnetBG from '../../ProjectBackgrounds/clearnet_bg.png';
 
-const TwentyTwo = () => {
+const TwentyThree = () => {
     return (
-        <div>
+        <div
+            style={{
+                marginTop: '5%',
+            }}
+        >
             <Title text="2023" split={1.5} relSize={0.8} />
             <Parallax
                 scale={[1, 1.2]}
@@ -60,4 +64,4 @@ const TwentyTwo = () => {
     );
 };
 
-export default TwentyTwo;
+export default TwentyThree;

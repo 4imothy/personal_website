@@ -1,12 +1,11 @@
-import React from "react";
-import { Parallax } from "react-scroll-parallax";
+import React from 'react';
+import { Parallax } from 'react-scroll-parallax';
 import styles from './text.module.scss';
 
-const first = "Timothy".split("");
-const middle = "Leon".split("");
-const last = "Cronin".split("");
-const initials = "IV".split("");
-
+const first = 'Timothy'.split('');
+const middle = 'Leon'.split('');
+const last = 'Cronin'.split('');
+const initials = 'IV'.split('');
 
 const Text = () => {
     return (
@@ -49,7 +48,7 @@ const Text = () => {
                 {initials.map((letter, i) => (
                     <Parallax
                         key={`initials-${i}`}
-                        translateX={[-50 * (i - .5), 50 * (i - .5)]}
+                        translateX={[-50 * (i - 0.5), 50 * (i - 0.5)]}
                         className={styles.letter}
                     >
                         {letter}
@@ -58,6 +57,6 @@ const Text = () => {
             </span>
         </Parallax>
     );
-}
+};
 
 export default Text;

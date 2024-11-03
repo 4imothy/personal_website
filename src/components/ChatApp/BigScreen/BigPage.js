@@ -1,4 +1,4 @@
-import Background from "./Background.js";
+import Background from './Background.js';
 import Content from './Content.js';
 
 const BigPage = () => {
@@ -7,7 +7,7 @@ const BigPage = () => {
             <Background />
             <Content />
         </>
-    )
-}
+    );
+};
 
 export default BigPage;

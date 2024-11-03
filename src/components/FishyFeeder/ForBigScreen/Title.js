@@ -7,6 +7,6 @@ const Title = () => {
             <img className={styles.title} src={title} alt="Fishy Feeder" />
         </div>
     );
-}
+};
 
 export default Title;
