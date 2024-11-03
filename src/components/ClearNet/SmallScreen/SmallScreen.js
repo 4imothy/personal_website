@@ -14,10 +14,7 @@ function Text() {
     return (
         <div className={styles.text}>
             <p>
-                <a
-                    href="https://github.com/4imothy/clear_net/tree/main/clear_net.h"
-                    target="_blank"
-                >
+                <a href="https://github.com/4imothy/clear_net" target="_blank">
                     Clear Net
                 </a>{' '}
                 is a{' '}
