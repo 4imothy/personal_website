@@ -1,0 +1,31 @@
+@import '../../colors.scss';
+
+.title {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font: bold 50px arial;
+    color: $background;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: $defaultText;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: $darkBackground;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    width: 100%;
+    text-align: center;
+    font: bold 30px arial;
+}
+
+.icon {
+    width: 6vh;
+}

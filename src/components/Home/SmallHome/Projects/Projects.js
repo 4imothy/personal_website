@@ -16,6 +16,30 @@ const Projects = () => {
     return (
         <div id="projects">
             <Title text="Projects" split={3} relSize={1} />
+            <Title text="2024" split={1.5} relSize={0.8} />
+            <Parallax
+                scale={[1, 1.2]}
+                style={{
+                    marginTop: '6%',
+                    height: '40vh',
+                }}
+            >
+                <div
+                    style={{
+                        display: 'flex',
+                        justifyContent: 'space-around',
+                        marginTop: '3%',
+                    }}
+                >
+                    <ProjIcon
+                        to="/ai3"
+                        img={clearnetBG}
+                        altImg="AI3"
+                        firstWords="ai3: Framework For"
+                        secondWords="Algorithmic Selection over DNNs"
+                    />
+                </div>
+            </Parallax>
             <Title text="2023" split={1.5} relSize={0.8} />
             <Parallax
                 scale={[1, 1.2]}
