@@ -25,8 +25,8 @@ const TwentyFour = () => {
                         img={clearnetBG}
                         linkTo="/ai3"
                         altImg="AI3"
-                        firstwords="ai3: Framework For"
-                        secondWords="Algorithmic Selection over DNNs"
+                        firstwords="ai3: Algorithmic"
+                        secondWords="Control Over DNNs"
                     />
                 </div>
             </Parallax>

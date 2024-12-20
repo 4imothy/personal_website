@@ -35,8 +35,8 @@ const Projects = () => {
                         to="/ai3"
                         img={clearnetBG}
                         altImg="AI3"
-                        firstWords="ai3: Framework For"
-                        secondWords="Algorithmic Selection over DNNs"
+                        firstWords="ai3: Algorithmic"
+                        secondWords="Control Over DNNs"
                     />
                 </div>
             </Parallax>
